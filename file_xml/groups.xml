@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding='utf-8'?>
+<data>
+    <category name="Keralagram Groups" id="0">
+        <link title="ടെലിഗ്രാമം">@KeralaGram</link>
+		<link title="ടെലിഗ്രാമം ചോദിക്കാം പറയാം">@KeralaGramQA</link>
+		<link title="Discussion Group">@KeralaGramDebates</link>
+		<link title="കേരള രക്തദാന ഗ്രൂപ്പ്‌">@KeralaDonors</link>
+    </category>
+    <category name="Friendship" id="1">
+        <link title="ചങ്ങാതികൂട്ടം">@tgkerala</link>
+		<link title="കിനാവിലെ മലപ്പുറം">@Malappuram</link>
+		<link title="കേരള കൂട്ടുകാർ">@TgMalayalees</link>
+		<link title="മലയാളീ ചാറ്റ് റൂം">@malayalee</link>
+        <link title="Plus Buddy's">@plusbuddys</link>
+    </category>
+    <category name="Science and Study" id="2">
+		<link title="Physics Books Group">@phybooks1</link>
+		<link title="Science Explosion">@science_explosion</link>
+    </category>
+    <category name="Travel" id="3">
+        <link title="യാത്രികര്‍  Life Explorers">@explorerz</link>
+    </category>
+    <category name="Literature" id="4">
+        <link title="എഴുത്തൊച്ച">@ezhuthochha</link>
+        <link title="മ്മടെ സ്വന്തം എഴ്ത്ത്പെര">@ezhutthupura</link>
+    </category>
+    <category name= "Technology" id="5">
+        <link title="GNU/Linux Lovers">@gnulinuxlovers</link>
+		<link title="Kerala Developers">@keraladevelopers</link>
+		<link title="സ്മാർട്ട്‌‌ഫോൺ യൂസേർസ്">@spusers</link>
+        <link title="TG ടെക് കേരള">@tgkeralatech</link>
+    </category>
+    <category name= "Vehicles" id="6">
+        <link title="AUTOMOBILES-BIKES and CARS">@autobc</link>
+    </category>
+    <category name="Food" id="7">
+        <link title="പലഹാരം ഗ്രൂപ്പ്">@palaharamgroup</link>   
+    </category>
+    <category name="Cinema" id="8">
+        <link title="സിനിമാറ്റിക് വേൾഡ്">@Cinematic_World</link>
+        <link title="സിനിമ കമ്പനി">@cinema_company</link>
+        <link title="Cloud Movies">@cloudmovies</link>
+    </category>
+    <category name="Fans" id="9">
+        <link title="Mammootty Fans Online">@mammookkafans</link>
+        <link title="ലാലേട്ടനും പിള്ളേരും">@laletanonline</link>
+        <link title="Mohanlal Fans Online Association">@lfaonline</link>
+		<link title="Suriya Fans Club">@SuriyaFansClub</link>
+		<link title="DQ Online Fans">@dqfans</link>
+		<link title="Pulimurugan">@Pulimurugan9099</link>
+        <link title="SRK PRINCE OF ROMANCE">@srkprinceofromance</link>
+        <link title="Nivin Pauly Online">@nivinpaulyonline</link>
+		<link title="KBFC- മഞ്ഞപ്പട">@keralablaster</link>
+    </category>
+    <category name="PSC" id="10">
+        <link title="Kerala PSC Corner">@padippura</link>
+    </category>
+    <category name="Others" id="11">
+		<link title="Designer's Club of Kerala">@designersclubkerala</link>
+        <link title="Request plain Memes">@plainmeme</link>
+	</category>
+	
+
+
+</data>

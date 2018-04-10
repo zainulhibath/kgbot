@@ -1,0 +1,115 @@
+ പ്രധാന ബോട്ടുകളെ പരിജയപ്പെടാം‍
+         
+
+Telegram Bots
+BotFather	Helps in the proccess of creating and setting up new bots. **Official Telegram Bot**	https://telegram.me/botfather
+Bot Store	A list of the best rated bots for Telegram, with a voting system incorporated.	https://telegram.me/storebot
+Stickers Bot	Bot prepared to configure sticker packs. **Official Telegram Bot**	https://telegram.me/stickers
+Telegram Languages	Translate any official Telegram App that supports language files.	https://telegram.me/tglanguagesbot
+Bots4Telegram Bot	"Info and news about Bots for Telegram" 	https://telegram.me/B4Tbot
+
+Images/Videos
+
+Image Bot	Searchs images (or gifs) for you. Uses bing search, now with *Bing's SafeSearch* enabled.	https://telegram.me/imagebot
+Download Youtube videos @utubebot
+YTBot, Photo & Video	Allows you to search for Youtube videos.	https://telegram.me/ytbot
+Gif Bot	Need a gif to support your opinion? Simply use gif_bot for this!	https://telegram.me/gif_bot
+xkcd Bot	Sends xkcd comics through chat.	https://telegram.me/xkcdBot
+Cat Pictures Bot	Sends cat pictures.	https://telegram.me/cat_pictures_bot
+Meme Generator Bot	Creates a Meme from a given text.	https://telegram.me/CreateMemeBot
+Youtube Search Bot	Another YT Bot. Returns the first result of the given search term.	https://telegram.me/YouTubeSearchBot
+Yify Bot	Allows you to search for an specific movie, or for the most recent movies available on said website. Notifies when new movies are released (if enabled)	 https://telegram.me/YifyBot
+Flickr Bot	Searches for images on Flickr based on the input from the user.	https://telegram.me/flickr_bot
+Catz	A bot that shows you pictures of cats	https://telegram.me/CatzBot
+Popcorn Time Bot	A bot for managing popcorn time shows and keeps you informed about new episodes	https://telegram.me/popcornTime_bot
+
+TOOLS - UTILITIES
+PollBot	As it's name states, it generates a poll. Main utility in groups.	https://telegram.me/PollBot
+WeatherBot	Get weather forecast for the city you like.	https://telegram.me/weatherbot
+FileBot	Allows to upload and share files via telegram, by sending a code that is used in the bot itself to request the file.	https://telegram.me/filesbot
+WolframBot	Makes Querys to Wolfram Alpha, and sends the results.	https://telegram.me/wolframbot
+Github Bot	Sends notifications about updates in your public repositories.	https://telegram.me/githubbot
+Astro Bot	Gives you time at location and google search results.	https://telegram.me/Astro_Bot
+Grammar Nazi Bot	Spellchecks every message and corrects spelling mistakes. Add it to group chats to shame your friends	https://telegram.me/grammarnazibot
+DiceBot	This bot allows you to roll a dice. Group mode available	https://telegram.me/dicebot
+Directions Bot	Gives directions to go from one place to another one.	https://telegram.me/directionsbot
+Text-to-Speech bot	Makes an audio recording of the text you send.	http://telegram.me/SpeechBot
+Aviation Weather Bot	Provides TAfs and METARs of airports.	https://telegram.me/AvWeatherBot
+LaTex Bot	sends an image with a LaTex equation converted to a proper formatting.	https://telegram.me/LatexBot
+RSVP Bot	Handles invitations to events in a group.	https://telegram.me/RSVPBot
+Translate Bot	It is a Telegram version of inTranslation iOS app. As the name suggests, it translates messages (can do it automatically for all incoming messages in a group)	https://telegram.me/Translate_Bot
+Quotes Bot	Gives General or Movie-Specific quotes when using the specific command.	https://telegram.me/Quote_bot
+Moolah Bot	Converts currencies, and shows the current Bitcoin price.	https://telegram.me/MoolahBot
+Dice Roll Bot	Allows to run a dice. Configurable number of faces, dices to roll, and default amount to sum/substract/multiply/divide	https://telegram.me/SnakeEyesBot
+myOrder Bot	Lets you coordinate a group orders, for example at a Bar or restaurant.	https://telegram.me/myorderbot
+Duck Duck Go Bot	Gives the first few results, and the first image for a search you specify in Duck Duck Go.	http://telegram.me/instantAnswerBot
+Flight Radar Bot	Send your location and get info about planes around you.	https://telegram.me/FlightRadarBot
+Grocery List Bot	This bot manage a shared Grocery list!	https://telegram.me/grocerylistbot
+TimeZones Bot	Keeps track of the time zones you configure (/tzadd /tzdel) and tells you the time around the world with (/time) - great if you're chatting to friends around the world and want to know if they should be awake or not :-)	https://telegram.me/TZbot
+Unit Converter Bot	Converts between units of length, area, volume (dry goods and liquids), weight temperature, energy, speed information (bits) and currencies. 	https://telegram.me/Unit_Converter_Bot
+Safe Bot	Creates passwords and hashes.	https://telegram.me/Safe_bot
+Rachel	Rachel is your virtual assistant who will remind anything you tell her	https://telegram.me/rachel_bot
+Trabber	Custom flight offer alerts in your account or group. English and spanish.	https://telegram.me/trabberbot
+wowrollbot	Generates a random number in a particular range.	https://telegram.me/wowrollbot
+ToDo Bot	Collaborative todo lists in Telegram (group support)	https://telegram.me/todobbot
+Hella Bot	A bot with various commands.	https://telegram.me/hella_bot
+The Weather Bot	A telegram implementation of OpenWeatherMap	https://telegram.me/the_weather_bot
+
+
+FUN and GAMES
+
+TriviaBot	Makes a Trivia Game in the Group where it's added, or a single player version if talked to it in private.	https://telegram.me/triviabot
+HangBot	Allows you to play Hangman games on Telegram	https://telegram.me/HangBot
+YoMamaBot	Sends "Yo Mama" jokes on chat.	https://telegram.me/YoMamaBot
+Gamebot	Plays "Hangman", "Tic Tac Toe" and "Guess The Number" with you.	https://telegram.me/KidBot
+Minigames Bot	Allows to play some group minigames, like "Arena" and "Bankheist". Has a golbal coin system.	https://telegram.me/MinigameBot
+Sudoku Bot	Let's you play Sudoku, with 3 levels of difficulty. Integrated buttons for gameplay.	https://telegram.me/SudokuBot
+Secret Bot	Saves your dirtiest secrets...almost every time. (it allows you to send secrets, and read those from other users, everything anonymously)	http://telegram.me/SecretBot
+Cookie Typer Bot	Cookie Clicker-ish bot. You get a cookie every time you post something (Except a command) If you're lucky, you'll get a goldencookie you can click to get extra bonus over time or at once.	https://telegram.me/CookieTyperBot
+Magic Conch Shell Bot	Answers Yes / No questions. It's funnier in a group :)	https://telegram.me/magicConchShellBot
+Rastreio Bot	A bot to tracks packages from Brazilian mail service	http://telegram.me/RastreioBot
+LMGTFY Bot	A bot to create links using Let Me Google That For You	http://telegram.me/lmgtfy_bot
+Dungeon Bot	A text-based dungeon RPG	https://telegram.me/DungeonCrawlerBot
+
+
+AUTO REPLY BOTS
+
+ZombieBot	Simply responds to whatever you say as a Zombie would.	https://telegram.me/ZombieBot
+Tsundere Bot	The name says it all, I think...	https://telegram.me/tsunderebot
+Hodor Bot	Hodor.	https://telegram.me/RealHodorBot
+Fuck Off Bot	Fuck off as a service bot	https://telegram.me/fuck_off_bot
+Chatter Bot	Mitsuku chatter bot	https://telegram.me/chatter_bot
+
+
+Multi Use Bot
+
+JamesTheBot	Multiuse bot. Combines the XKCD, Youtube, Currency, Dice and Meme bots from the author.	https://telegram.me/JamesTheBot
+GypsyBot	Multiuse bot. URL Shortener, Translator, Currency (Yeah, Bitcoins too), Text to Speech (Multiple Languages Automatically), Weather Search (With beautiful Stickers!), Decimal to Binary converter, Random number generator.	https://telegram.me/GypsyBot
+
+News
+
+AllNewsBot	Collection of German news bots	https://telegram.me/AllNewsBot
+Kerala News https://telegram.me/Newsheads
+The New York Times	Previews of the latest news from The New York Times	https://telegram.me/NYTimesBot
+The Washington Post Politics	Previews of the latest news from The Washington Post	https://telegram.me/WashingtonPostBot
+Breaking News	Breaking news feed at set times during the day	https://telegram.me/breakingnews_bot
+
+Others
+
+Hot Or Bot	Similar to Tinder. You enter a few details about yourself, send your location, and you start being proposed people which may be compatible with you.	https://telegram.me/hotorbot
+Stranger Bot	Sort of a Chatroulette bot. Starts a conversation between you and some other random user. Now the user's identity is truly hidden :)	https://telegram.me/StrangerBot
+Porn Bot	**[NSFW]** Have fun with this porn-bot! (currently in development)	https://telegram.me/prnbot
+Random Chat Bot	kinda like Stranger Bot, but shows your chat partners' sex, age and distance to them at the beginning of the conversation (because those things are the first questions most people ask first anyway).	https://telegram.me/RandomChatBot
+Porn Robot	**[NSFW]** Finds videos from Pornhub and your favoriate pornstars.	https://telegram.me/PornRobot
+TNA Bot	**[NSFW]** Search and see the most recent videos from PornHub	https://telegram.me/TNABot
+Adult Image Robot	**[NSFW]** Shows adult images and GIFs.	https://telegram.me/AdultImageBot
+Rate Your Boobs Bot	**[NSFW]** The name explains it perfectly.	https://telegram.me/RateYourBoobsBot
+ePorn Bot	**[NSFW]** The name explains it perfectly.	https://telegram.me/epornerbot
+"RedTube Search (Unofficial)
+"	**[NSFW]** The name explains it perfectly.	https://telegram.me/redtubebot
+Italia Webcam	Webcam feed of Italian tourist attractions (italian)	https://telegram.me/ItaliaWebcamBot
+Quran Robot	Shows snippets of Al-Quran verses together with its translations.	https://telegram.me/quranrobot
+telegram-plexbot	**[code]** Pull data from your Plex Media Server's API to send as messages using Telegrams Bot API	https://github.com/brownsmart/telegram-plexbot
+
+
+
