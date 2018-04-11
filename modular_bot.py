@@ -13,7 +13,7 @@ from telegram.ext import CommandHandler, ConversationHandler
 from telegram.ext import MessageHandler, Filters, RegexHandler, CallbackQueryHandler
 from channeladmin import UI
 from channeladmin import XMLOps
-from listitems import Listui
+from listitems import Listing
 
 
 def error_callback(bot, update, error):
@@ -50,7 +50,7 @@ def cancel(bot, update):
 def main():
     xmlops = XMLOps()
     Channel = UI(xmlops)
-    listsui = Listui()
+    listsui = Listing()
     TOKEN = sys.argv[1]
     updater = Updater(token=TOKEN)
     bot = telegram.Bot(token=TOKEN)
@@ -61,17 +61,24 @@ def main():
         level=logging.INFO)
     dispatcher.add_error_handler(error_callback)
     channelAdmin_handler = ConversationHandler(
-        entry_points=[CommandHandler('start', listsui.start), CommandHandler('channelAdmin', Channel.addEntry)],
+        entry_points=[CommandHandler('channelAdmin', Channel.addEntry)],
         states={
             listsui.FINPUT: [RegexHandler('(Rules)', listsui.rules),
-                     RegexHandler('(Groups)', listsui.groupsEntry),
-                     RegexHandler('(Channels)', listsui.channels),
-                     RegexHandler('Stickers|Previous|Next', listsui.stick_er),
-                     CommandHandler('addsticker', listsui.stickerStart),
-                     RegexHandler('(Cancel)', cancel),
-                     RegexHandler('(Bots)', listsui.bo_t),
-                     RegexHandler('(Know telegram)', listsui.know_tg),
-                     RegexHandler('(GoBack)', listsui.start)],
+                     RegexHandler('(Groups)', listsui.groupsEntry)],
+                     # ~ RegexHandler('(Channels)', listsui.channels),
+                     # ~ RegexHandler('Stickers|Previous|Next', listsui.stick_er),
+                     # ~ CommandHandler('addsticker', listsui.stickerStart),
+                     # ~ RegexHandler('(Cancel)', cancel),
+                     # ~ RegexHandler('(Bots)', listsui.bo_t),
+                     # ~ RegexHandler('(Know telegram)', listsui.know_tg),
+                     # ~ RegexHandler('(GoBack)', listsui.start)],
+            listsui.GDIV: [CallbackQueryHandler(listsui.groupsInfo)],
+            # ~ listsui.STICKER_NAME: [MessageHandler(Filters.text, listsui.stickerName)],
+            # ~ listsui.STICKER_URL: [MessageHandler(Filters.text, listsui.stickerURL)],
+            # ~ listsui.STICKER_IMG: [MessageHandler(Filters.photo, listsui.stickerImage)],
+            # ~ listsui.KNWTG: [CallbackQueryHandler(listsui.button)],
+            # ~ listsui.CHNL: [CallbackQueryHandler(listsui.button_channel)],
+            # ~ listsui.BOT: [CallbackQueryHandler(listsui.button_bot)],
 			Channel.NEW_CATEG: [RegexHandler('(Yes)', Channel.addNewCategory),
                                 RegexHandler('(No, add to existing category)',
                                              Channel.showCategory)],
@@ -86,7 +93,31 @@ def main():
         },
         fallbacks=[CommandHandler('cancel', cancel)]
     )
+    listingfun_handler =  ConversationHandler(
+        entry_points=[CommandHandler('start', listsui.start)],
+        states={
+            listsui.FINPUT: [RegexHandler('(Rules)', listsui.rules),
+                     RegexHandler('(Groups)', listsui.groupsEntry),
+                     RegexHandler('(Channels)', listsui.channels),
+                     RegexHandler('Stickers|Previous|Next', listsui.stick_er),
+                     CommandHandler('addsticker', listsui.stickerStart),
+                     RegexHandler('(Cancel)', cancel),
+                     RegexHandler('(Bots)', listsui.bo_t),
+                     RegexHandler('(Know telegram)', listsui.know_tg),
+                     RegexHandler('(GoBack)', listsui.start)],
+            listsui.GDIV: [CallbackQueryHandler(listsui.groupsInfo)],
+            listsui.STICKER_NAME: [MessageHandler(Filters.text, listsui.stickerName)],
+            listsui.STICKER_URL: [MessageHandler(Filters.text, listsui.stickerURL)],
+            listsui.STICKER_IMG: [MessageHandler(Filters.photo, listsui.stickerImage)],
+            listsui.KNWTG: [CallbackQueryHandler(listsui.button)],
+            listsui.CHNL: [CallbackQueryHandler(listsui.button_channel)],
+            listsui.BOT: [CallbackQueryHandler(listsui.button_bot)]
+			
+        },
+        fallbacks=[CommandHandler('cancel', cancel)]
+    )
     dispatcher.add_handler(channelAdmin_handler)
+    dispatcher.add_handler(listingfun_handler)
     updater.start_polling()
     updater.idle()
 

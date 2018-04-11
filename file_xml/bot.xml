@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding='utf-8'?>
+<?xml version="1.0" encoding='utf-8'?>
 <data>
     <category name="Telegram Bots" id="0">
         <link title="create a bot">@botfather</link>
@@ -9,13 +9,11 @@
           <link title="write large articles">@telegraph</link>
 	      <link title="Edit picture">@icon8bot</link>
 	      <link title="play games">@gamee</link>
-        
-
     </category>
     <category name="Audio and Video" id="1">
         <link title="DjSets">@DJSetsBot</link>
-	<link  title="YoutubeVideos">@vid</link>
-	<link title="SaveVideo">@savevideobot</link>
+		<link  title="YoutubeVideos">@vid</link>
+		<link title="SaveVideo">@savevideobot</link>
         <link title="justvideobot">@justvideobot</link>
         <link title="MyMusicBot">@MyMusicBot</link>
         <link title="FBvidzBot">@FBvidzBot</link>
@@ -25,26 +23,26 @@
         <link title="the_musicbot">@the_musicbot</link>
         <link title="audiokeychainbot">@audiokeychainbot</link>
         <link title="mp3toolsbot">@mp3toolsbot</link>
-	<link title="FourKDownloadBot">@FourKDownloadBot</link>
-	<link title="getmp3bot">@getmp3bot</link>
-	<link title="vkmusic_bot">@vkmusic_bot</link>
-	<link title="Videoeditbot">@Videoeditbot</link>
+		<link title="FourKDownloadBot">@FourKDownloadBot</link>
+		<link title="getmp3bot">@getmp3bot</link>
+		<link title="vkmusic_bot">@vkmusic_bot</link>
+		<link title="Videoeditbot">@Videoeditbot</link>
     </category>
     <category name="Images" id="2">
-	<link title="icon8bot">@icon8bot</link>
-	<link title="effectbot">@effectbot</link>
-	<link title="guggybot">@guggybot</link>
-	<link title="thedodgebot">@thedodgebot</link>
-	<link title="clippy">@clippy</link>
-	<link title="ImageTranslateBot">@ImageTranslateBot</link>      
-	<link title="qrcrbot">@qrcrbot</link>
-	<link title="EditMeBot">@EditMeBot</link>
-	<link title="bing">@bing></link>
-	<link title="pic">@pic</link>
-	<link title="allwallpaperbot">@allwallpaperbot</link>
-	<link title="imgmagicbot">@imgmagicbot</link>
-	<link title="NatGeoBot">@NatGeoBot</link>
-	<link title="ImageSearchBot">@ImageSearchBot</link>
+		<link title="icon8bot">@icon8bot</link>
+		<link title="effectbot">@effectbot</link>
+		<link title="guggybot">@guggybot</link>
+		<link title="thedodgebot">@thedodgebot</link>
+		<link title="clippy">@clippy</link>
+		<link title="ImageTranslateBot">@ImageTranslateBot</link>      
+		<link title="qrcrbot">@qrcrbot</link>
+		<link title="EditMeBot">@EditMeBot</link>
+		<link title="bing">@bing></link>
+		<link title="pic">@pic</link>
+		<link title="allwallpaperbot">@allwallpaperbot</link>
+		<link title="imgmagicbot">@imgmagicbot</link>
+		<link title="NatGeoBot">@NatGeoBot</link>
+		<link title="ImageSearchBot">@ImageSearchBot</link>
     </category>
     <category name="Memes and Trolls" id="3">
               <link title="createMemes">@createMeme_bot</link>
@@ -65,11 +63,11 @@
     </category>
     <category name= "Stickers" id="5">
         <link title="stckrbot">@stckrbot</link>
-	<link title="sticker">@sticker</link>
-	<link title="StickerpipeBot">@StickerpipeBot</link>
+		<link title="sticker">@sticker</link>
+		<link title="StickerpipeBot">@StickerpipeBot</link>
         <link title="SnackyBot">@SnackyBot</link>
         <link title="Stickerdownloadbot">@Stickerdownloadbot</link>
-	<link title="Make your stickers">@HowToMakeStickersBot</link>
+		<link title="Make your stickers">@HowToMakeStickersBot</link>
     </category>
     <category name= "Movies and Series" id="6">
         <link title="IndianMoviesBot">@IndianMoviesBot</link>
@@ -82,20 +80,20 @@
         <link title="TVSeriesRoBot">@TVSeriesRoBot</link>
         <link title="watchcomicbot">@watchcomicbot</link>
         <link title="ShowtimesBot">@ShowtimesBot</link>
-        </category>
+    </category>
     <category name="Languages" id="7">
         <link title="vanmarambot">@vanmarambot</link>
         <link title="MalayalamDictionBot">@MalayalamDictionBot</link>
-	<link title="DictionBot">@DictionBot</link>
-	<link title="thesaurusdictbot">@thesaurusdictbot</link>
-	<link title="a8bot">@a8bot</link>
-	<link title="lutilbot">@lutilbot</link>
-	<link title="enhibot">@enhibot</link>
-	<link title="EnKnBot">@EnKnBot</link>
-	<link title="entabot">@entabot</link>
-	<link title="entagbot">@entagbot</link>
-	<link title="insttranslatebot">@insttranslatebot</link>
-	<link title="udbot">@udbot</link>
+		<link title="DictionBot">@DictionBot</link>
+		<link title="thesaurusdictbot">@thesaurusdictbot</link>
+		<link title="a8bot">@a8bot</link>
+		<link title="lutilbot">@lutilbot</link>
+		<link title="enhibot">@enhibot</link>
+		<link title="EnKnBot">@EnKnBot</link>
+		<link title="entabot">@entabot</link>
+		<link title="entagbot">@entagbot</link>
+		<link title="insttranslatebot">@insttranslatebot</link>
+		<link title="udbot">@udbot</link>
     </category>
     <category name="News" id="8">
         <link title="TimesNow">@timesnowbot</link>
@@ -107,15 +105,15 @@
         <link title="cricbuzz_bot">@cricbuzz_bot</link>
         <link title="soccer_goals_bot">@soccer_goals_bot</link>
         <link title="Gooalbot">@Gooalbot</link>
-	<link title="PingSportsBot">@PingSportsBot</link>
-	<link title="allgoals_bot">@allgoals_bot</link>
-	<link title="moneycontrolbot">@moneycontrolbot</link>
+		<link title="PingSportsBot">@PingSportsBot</link>
+		<link title="allgoals_bot">@allgoals_bot</link>
+		<link title="moneycontrolbot">@moneycontrolbot</link>
     </category>
     <category name="Converters" id="9">
         <link title="vgifbot">@vgifbot</link>
         <link title="topdf_bot">@topdf_bot</link>
         <link title="TextTSBot">@TextTSBot</link>
-	<link title="fileconverterbot">@fileconverterbot</link>
+		<link title="fileconverterbot">@fileconverterbot</link>
     </category>
     <category name="Games" id="10">
         <link title="Awesome bot">@awesomebot</link>
@@ -138,13 +136,13 @@
         <link title="earthquizbot">@earthquizbot</link>
     </category>
     <category name="Create Bots" id="11">
-	<link title="BaieBOT">@BaieBOT</link>
-	<link title="bigbotfactorybot">@bigbotfactorybot</link>
-	<link title="Bot Father">@Botfather</link>
-	<link title="chatfuelbot">@chatfuelbot</link>
-	<link title="Manybot">@Manybot</link>
-	<link title="MetaBot">@MetaBot</link>
-	<link title="TbotifyBot">@TbotifyBot</link>
+		<link title="BaieBOT">@BaieBOT</link>
+		<link title="bigbotfactorybot">@bigbotfactorybot</link>
+		<link title="Bot Father">@Botfather</link>
+		<link title="chatfuelbot">@chatfuelbot</link>
+		<link title="Manybot">@Manybot</link>
+		<link title="MetaBot">@MetaBot</link>
+		<link title="TbotifyBot">@TbotifyBot</link>
     </category>
     <category name="Weather" id="12">
         <link title="aemetbot">@aemetbot</link>              
@@ -154,7 +152,11 @@
         <link title="weathercast_bot">@weathercast_bot</link>
         <link title="Weatherman">@Weatherman_bot</link>
     </category>
-    <category name="Others" id="13">
+    <category name="Online shopping" id="13">
+		<link title="Amazondirectbot">@amazondirectbot</link>
+		<link title="flipkartsearchbot">@flipkartsearchbot</link>
+	</category>
+    <category name="Others" id="14">
         <link title="wiki">@wiki</link>
         <link title="siftbot">@siftbot</link>
         <link title="gbreborn_bot">@gbreborn_bot</link>
@@ -170,9 +172,9 @@
         <link title="goodreadbot">@goodreadbot</link>
         <link title="thefeedreaderbot">@thefeedreaderbot</link>
         <link title="controllerbot">@controllerbot</link>
-        <link title="calculator">﻿﻿@calcubot</link>
+        <link title="calculator">@calcubot</link>
+        <link title="aanavandibot">@aanavandibot</link>
     </category>
-
-
 </data>
+
 

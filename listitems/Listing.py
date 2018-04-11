@@ -9,7 +9,7 @@ from telegram.ext import CallbackQueryHandler
 
 
 
-class Listui:
+class Listing:
     """
     Object that abstracts admin operation on channel data in xml format
     """
@@ -21,7 +21,7 @@ class Listui:
         (self.FINPUT, self.GDIV, self.STICKER_NAME, self.STICKER_URL, self.STICKER_IMG, self.KNWTG, self.CHNL, self.BOT) = range(8)
         self.ST_NAME = ""
         self.ST_URL = ""
-        self.CUR_PAGE = ""
+        self.CUR_PAGE = 0
         
         
     def start(self, bot, update):
@@ -83,8 +83,8 @@ class Listui:
       elif choice == '4':
         path = 'info/admin.txt'
       elif choice == '5':
-        start(bot, query)
-      return self.FINPUT
+        self.start(bot, query)
+        return self.FINPUT
       file = open(path)
       text = file.read()
       bot.editMessageText(text=text,
@@ -203,7 +203,7 @@ class Listui:
       query = update.callback_query
       choice = query.data
       if choice == 'main':
-        start(self, bot, query)
+        self.start(bot, query)
         return self.FINPUT
       else:
         lists = []
@@ -265,7 +265,7 @@ class Listui:
       query = update.callback_query
       choice = query.data
       if choice == 'main':
-        start(bot, query)
+        self.start(bot, query)
         return self.FINPUT
       else:
         lists = []
@@ -329,7 +329,7 @@ class Listui:
       query = update.callback_query
       choice = query.data
       if choice == 'main':
-        start(bot, query)
+        self.start(bot, query)
         return self.FINPUT
       else:
         lists = []
@@ -353,29 +353,29 @@ class Listui:
 
 
     def stick_er(self, bot, update):
-      global CUR_PAGE
+      # ~ global CUR_PAGE
       stdb = StickersDB()
       pages = stdb.fetch_list()
       choice = update.message.text
       if pages:
         if choice == 'Stickers':
-            page_entry = pages[CUR_PAGE]
+            page_entry = pages[self.CUR_PAGE]
             # page_entry [0]-ID, [1]-Name, [2]-URL, [3]-Path to preview
-            display(page_entry, bot, update)
+            self.display(page_entry, bot, update)
         if choice == 'Previous':
-            if CUR_PAGE > 0:
-                CUR_PAGE = CUR_PAGE - 1
-                page_entry = pages[CUR_PAGE]
+            if self.CUR_PAGE > 0:
+                self.CUR_PAGE = self.CUR_PAGE - 1
+                page_entry = pages[self.CUR_PAGE]
             else:
-                page_entry = pages[CUR_PAGE]
-            display(page_entry, bot, update)
+                page_entry = pages[self.CUR_PAGE]
+            self.display(page_entry, bot, update)
         elif choice == 'Next':
-            if (CUR_PAGE < (len(pages) - 1)):
-                CUR_PAGE = CUR_PAGE + 1
-                page_entry = pages[CUR_PAGE]
+            if (self.CUR_PAGE < (len(pages) - 1)):
+                self.CUR_PAGE = self.CUR_PAGE + 1
+                page_entry = pages[self.CUR_PAGE]
             else:
-                page_entry = pages[CUR_PAGE]
-            display(page_entry, bot, update)
+                page_entry = pages[self.CUR_PAGE]
+            self.display(page_entry, bot, update)
         elif choice == 'GoBack':
             return self.FINPUT
 

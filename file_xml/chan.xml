@@ -1,17 +1,34 @@
+﻿<?xml version="1.0" encoding='utf-8'?>
 <data>
-    <category name="Keralagram" id="0">
-        <link title="keralagram official channel">@keralagramchannel</link>
-        <link title="&#3374;&#3378;&#3375;&#3390;&#3379;&#3330; &#3351;&#3391;&#3371;&#3393;&#3349;&#3379;&#3405;&#8205; &#3374;&#3402;&#3364;&#3405;&#3364;&#3374;&#3390;&#3375;&#3393;&#3330; &#3354;&#3391;&#3378;&#3405;&#3378;&#3377;&#3375;&#3390;&#3375;&#3393;&#3330;">@gifkada</link>
+    <category name="Keralagram" id ="0">
+        <link title="KeralaGram Channel">@keralagramchannel</link>
+		<link title="KeralaGram Live">@KeralagramLive</link>
+        <link title="മലയാളം ഗിഫുകള്‍ മൊത്തമായും ചില്ലറയായും">@gifkada</link>
+		<link title="TeleGram Themes">@attheme</link>
+	    <link title="Keralites">@Keralites</link>
+	    <link title="Tg Video Chats">@tgvideochats</link>
+		<link title="TG Bugs">@TgBugs</link>
     </category>
+	
     <category name="Job" id="1">
         <link title="JobHub for job enquiry">@jobhub</link>
 	    <link title="for Job alerts">@ASA_JobAlerts</link>
-    </category>
-    <category name="Quotes" id="2">
-        <link title="life easy tips">@lifeiseasy13</link>
+	    <link title="Job Vaccancies">@jobvaccancies</link>
+	    <link title="Teachers vacancy">@staffroom</link>
+	    <link title="Jobvaccancies">@jobvaccancies</link>
+	    <link title="Jobvaccancies">@jobvaccancies</link>
+	    <link title="Mrjobskerala">@mrjobskerala</link>
+	    <link title="IndiaEmploymentNews">@IndiaEmploymentNews</link>
+	
+   </category>
+    <category name="Motivation" id="2">
+        <link title="Positive India">@lifeiseasy13</link>
 	    <link title="Shower Thoughts">@showerthoughts</link>
 	    <link title="Innathey vachakam">@InnatheVaChakam</link>
-    </category>
+	    <link title="Motivational">@motivational</link>
+        <link title="Think Positive Words">@thinkpositivewords</link>
+	</category>
+	
     <category name="UPSC SSC IAS" id="3">
         <link title="Hindu current affairs">@TheHindu_Zone</link>
         <link title="Bank Exams">@bankingzone</link>
@@ -20,81 +37,180 @@
         <link title="CSE Current affairs">@CSE_CurrentAffairs</link>
         <link title="IAS channel">@IAS4INDIA</link>
         <link title="UPSC Exams">@UPSCTestSeries</link>
-        <link title="Civil Services">@CivilService</link>        
+        <link title="Civil Services">@CivilService</link>
     </category>
-    <category name="Science" id="4">
+	
+    <category name="Popular Science" id="4">
+	    <link title="Real facts">@realfactz</link>
         <link title="Everything on Science">@EverythingScience</link>
         <link title="Virtual library ">@TgVirtualLibrary</link>
-        <link title="Scientific explanations">@scientifically</link>
+        <link title="Scientific explanations" >@scientifically</link>
         <link title="Explanations on Science">@xplained</link>
         <link title="Jichnyasa channel">@csjkchnl</link>
         <link title="Open source data science">@opendatascience</link>
-        <link title="Science">@xscience</link>
-        <link title=" Science lovers">@ifuckinglovescience</link>
-        <link title="Real facts">@realfactz</link>
+        <link title="Science" >@xscience</link>
+        <link title="Science lovers">@ifuckinglovescience</link>
+        <link title="നിങ്ങൾക്കറിയാമോ?">@ningalkkariyamo</link>
+        <link title="Baijuraj's Astronomy Club">@baijuraj</link>
+		<link title="Hoax Slayer">@smhoaxslayer</link>
+	    <link title="Lets Physics">@letsphysics</link>
+	    <link title="Curiosity Tea">@curiositytea</link>
+	    <link title="Wisdom Net">@wisdomnet</link>
+	    <link title="Facts Fever">@FactsFever</link>
+	    <link title="Science_Nature_Page">@Science_Nature_Page</link>
+	    <link title="Science_lovers">@science_lovers</link>
     </category>
-    <category name="Pc software and Games" id="5">
+	
+    <category name="Pc soft, Game" id="5">
         <link title="VORTECH PC">@Vortechpc</link>
         <link title="For PC GAMES">@Koleksi_PC_Games</link>
         <link title="MFMIX">@mfmixgames</link>
         <link title="HC games ">@HCgames</link>
+	    <link title="Capital of Softwares">@capitalofsoftwares</link>
+	    <link title="T L Softwares">@tlsoftwares</link>
     </category>
-    <category name="Kerala PSC" id="6">
+	
+    <category name= "Kerala PSC" id="6">
         <link title="Kerala PSC get daily updated">@keralapscnetwork</link>
-        <link title="Mission =PSC">@Missionpsc</link>
+		<link title="PSC Trolls">@psctrolls</link>
+        <link title="Mission PSC">@Missionpsc</link>
         <link title="Psc Jobs">@psc4job</link>
+		<link title="PSC പഠന സഹായി">@pschelper</link>
+		<link title="PSC Materials">@sahayahastham</link>
+		<link title="PSC Notes and Materials">@targetpsc</link>
+		<link title="GK Master for PSC">@gkmaster</link>
+		<link title="PSC FOR A BRIGHT FUTURE">@pscforabrightfuture</link>
+		<link title="targetpsc">@targetpsc</link>
+		<link title="Samarthyapsc">@samarthyapsc</link>
+		<link title="@keralapscstudy">@keralapscstudy </link>
     </category>
-    <category name="Movies" id="7">
-        <link title="Malayalam Movies">@malayalammovies</link>
-        <link title="Tamil Dubbed Movies">@tamildubbedmovies</link>
-        <link title="Hindi Dubbed Movies">@hindidubbedmovies</link> 
-        <link title="Indian Movies">@indianmoviez</link>
-        <link title="For HD movies">https://t.me/joinchat/Ay73NEAAH10vmG2pY1bgnw</link>
-        <link title="Movies here ">@movieshere</link>
-        <link title="Film World">@FilmWrldC</link>
-        <link title="Movies">@moviesG15</link>
-        <link title="For Telugu movies">@telugumovie</link>
-        <link title="Torrent films">@FilmesTorrent_tm</link>
-        <link title="International movies">@CeritaSarikataMelayu</link>
-        <link title="Cinema company for perfectly organized movies">@Cinemaa_Company</link>
-        <link title="Movies available in Telegram">@tmovies</link>
-        <link title=" For Short Films">@ShortFilmPromoters</link>
-        <link title="MOVIE SHARE ">https://t.me/joinchat/BnnJMD-cdI3dP0ncZsO4vg</link>
-        <link title="Intermedia">https://t.me/joinchat/AnN7Fzv80K5wRMaKTJ9o6Q</link>
-        <link title="For Korean Movies">@Koreanmovie</link>
+
+    <category name= "Movies" id="7">
+	    <link title="QualiStuff Team">@QualiStuff</link>
+        <link title="Malayalam Movies">@MalayalamMovies</link>
+		<link title="Indian Moviez">@IndianMoviez</link>
+		<link title="Muvi Box">@MuviBox</link>
+		<link title="Muvi Box Stream">@MuviBoxStream</link>
+		<link title="HEVC Box">@HEVCBox</link>
+        <link title="Tamil Dubbed Movies">@TamilDubbedMovies</link>
+        <link title="Hindi Dubbed Movies">@HindiDubbedMovies</link>
+		<link title="Indian Moviez Stream">@IMStream</link>
+        <link title="Indian Moviez iOS">https://t.me/joinchat/AAAAAFHJ7YcL0_SQyzsrUw</link>
+		<link title="Cinema company">@Cinemaa_Company</link>
+		<link title="CC New Release">@cc_new</link>
+		<link title="CC Hindi Movies">@CC_HindiMovies</link>
+		<link title="CC HEVC Movies">@CC_x265</link>
+		<link title="CC Malayalam Old Movies">@CC_Old</link>
+		<link title="CC Malayalam Dubbed Movies">@CC_MalayalamDubbed</link>
+		<link title="WMR™ HEVC MOVIES">@WMR_X265</link>
+	    <link title="WMR™ FRESH HITS">@WMR_FRESHHITS</link>
+        <link title="CK Moviez">@CK_Moviez</link>
+		<link title="CK Fresh Hits">@CKMoviez</link>
+		<link title="Poolla Rips">@poolla</link>  
+		<link title="CK NEW MOVIES">@CK_Moviez</link>
+		<link title="CK 400MB Files">@CKMovies</link>
+		<link title="For Korean Movies">@Koreanmovie</link>
+		<link title="Cinema Paradiso Movie">@cinemaparadisomovie</link>
+	    <link title="Vivi-Maxx">@vivimaxx</link>
+	    <link title="Moviez Time">@movieztime</link>
+	    <link title="Mobile Movie Mania">@mobile_mm</link>
+	    <link title="YIFY Movies">@YTSmovies</link>
+	    <link title="VIVI-MAXX 2.0">@entertainmentcorner></link>
+	    <link title="Universal Cinemas">@Universalpicturez</link>
+	    <link title="Today's cinema">@todayscollection</link>
+	    <link title="Mallu Movies">@Mallu_Movies</link>
+		<link title="MM New">@MM_New</link>
+		<link title="Mallu Rockers">@Mallu_Rockers</link>
+		<link title="MM TV Series">@MM_TVSeries</link>
+	    <link title="Netflix_movies">@Netflix_movies</link>
+	    <link title="SuspenseMovies">@SuspenseMovies</link>
+	    <link title="¢ιиємα_вυ∂∂ιєѕ">@cinema_buddies</link>
+	    <link title="sher1983l">@sher1983l</link>
+		<link title="Parava Media">@paravamedia</link>
+		<link title="iMOVIE SHARE ">https://t.me/joinchat/BnnJMD-cdI3dP0ncZsO4vg</link>
+        <link title="Intermedia" >https://t.me/joinchat/AnN7Fzv80K5wRMaKTJ9o6Q</link>
+		<link title="MuviBox">@MuviBox</link>
+	</category>
+	
+    <category name="TV Series" id="8">
+	    <link title="CC TV Series">@cc_tvseries</link>
+	    <link title="WMR™ TV SERIES">@WMR_TVSERIES</link>
+        <link title="TV Series Archives">@itvsharearchive</link>
+	    <link title="TV Series hub">@tvserieshub</link>
+	    <link title="ഉപ്പും മുളകും">@uppummulakum</link>
+	    <link title="Game of Thrones">@gameofthronesvivimaxx</link>
+	    
     </category>
-    <category name="Tv Shows" id="8">
-        <link title="TVG">@TVG15</link>
-        <link title="TV Series Archives">@tseriesarchive</link>
-    </category>
+	
     <category name="Music" id="9">
-        <link title="Hindi Music">@HindiMusik</link> 
-        <link title="Tamil Music">@tamilmusik</link>
-        <link title="Malayalam Music">@malayalammusic</link>
+        <link title="Hindi Musik">@HindiMusik</link>
+        <link title="Tamil Musik">@TamilMusik</link>
+        <link title="Malayalam Music">@MalayalamMusic</link>
+	    <link title="Musi Box">@MusiBox</link>
+		<link title="Video Songs">@ViduBox</link>
         <link title="CC Music">@cc_music</link>
+		<link title="AR Rahman Songs">@CC_ARRSongs</link>
+		<link title="CK Musics">@ckmusics</link>
         <link title="DJ MAZA Zips">@djmazazips</link>
         <link title="For Ringtones BGMs">@RingtonesAndBgms</link>
         <link title="Electronic Dance Music">@EDMusic</link>
-        <link title="Evergreen Songs brings back nostalgia">@EvergreenSongs</link>
+        <link title="പൂന്തേനരുവി">@Poonthenaruvi</link>
         <link title="Full Albums">@FullAlbums</link>
-        <link title="Pattu Petti">@pattupetti</link>
+        <link title="പാട്ടുപെട്ടി">@pattupetti</link>
         <link title="Malayalam KARAOKE Songs">@malayalamkaraoke</link>
         <link title="Raagas">@raagas</link>
-        <link title="Team ARC songs ">@TeamARC</link>
+       	<link title="Webmusic .in">@webmusic</link>
+		<link title="Gramophone">@tgGramophone</link>
+		<link title="Latest Songs">@latestsongs</link>
+		<link title="Full Music Albums">@fullalbums</link>
+		<link title="MollYwooD DiarieS(MusicS)">@mollywoodmusics</link>
+		<link title="iMusicShare Channel">@imusicshare</link>
+		<link title="MT Malayalam Songs">@mtmalayalamsongs</link>
+		<link title="MT Tamil Songs">@mttamilsongs</link>
+		<link title="MT English Songs">@mtenglishsongs</link>
+		<link title="MT Hindi Songs">@mthindisongs</link>
+		<link title="Bollywood Best Hindi Songs">@myradiomks</link>
+		<link title="DJ COMMUNITY">@DJ_Community</link>
+		<link title="മാപ്പിളപ്പാട്ടുകൾ">@mappilapattu</link>
+		<link title="മലയാളം കവിതകൾ">https://telegram.me/joinchat/AAAAAED9z6IZ1KWWzKuAzg</link>
+		<link title="TCR Live">﻿﻿@tcrlive</link>
+		<link title="FM Radio">﻿﻿@fmonline</link>
+		<link title="ഇശൽ നിലാവ് ">@ishalnilavu</link>
+        <link title="Freedom Melody">@freedomMelody</link>
+        <link title="IMusicz">@iMusicz</link>
+        <link title="MalayalamEvergreenSongz">@MalayalamEvergreenSongz</link>
+        <link title="letsplay0">@letsplay0</link>
+        <link title="DJ_Community">@DJ_Community</link>
+        <link title="Ikkaspecialsongs">@ikkaspecialsongs</link>
+        <link title="Vintagesongs">@vintagesongs</link>
+        <link title="IndianMusiK">@IndianMusiK</link>
+        <link title="CK Musics">@CKMusics</link>
     </category>
-    <category name="Android Apps And Games" id="10">
+	<category name="Mobile Apps,Games" id="10">
+		<link title="IOS Apps">@ihacks</link>
         <link title="APK MIRROR">@APKmi</link>
         <link title="PRO App Share">@proappshare</link>
         <link title="Everything  ME">@EverythingMe</link>
         <link title="MFMIX">@mfmixgames</link>
         <link title="APK King">@Apk_king</link>
         <link title="Andro">@Andro</link>
+        <link title="CrackedApkz">@CrackedApkz</link>
+	    <link title="IOS jail breaked Apps">@iOSAppsFree</link>
+	    <link title="My Android">@Win_Droid</link>
+	    <link title="ANĐROIĐ MÄNIAC">@androidmaniacpro</link>
+	    <link title="Xda-Pirates">@xdapirates</link>
+	    <link title="Premium Apps and Games">@akrpremium</link>
+	    <link title="AndroGamers">@AndroGamers</link>
+	    <link title="InFoTel14">@InFoTel14</link>
     </category>
+	
     <category name="Books" id="11">
         <link title="PDF LIBRARY ">@pdflibrary</link>
-        <link title="EBOOKZ">@ebookz</link>
-        <link title="ebooks collection">@ebookzcollection</link>
-        <link title="Request EBOOKZ in Group">@EbookzGroup</link>
+        <link title="EBOOKZ" >@Ebookz</link>
+        <link title="Ebooks Collection">@EbookzCollection</link>
+        <link title="Request EBOOKZ in Group" >@EbookzGroup</link>
+	    <link title="Ebookz Stuff">@Ebookzstuff</link>
+		<link title="Ebookz Magazines">@EbookzMag</link>
         <link title="English Books">@eng_books</link>
         <link title="Ebook HUB">@EBookHub</link>
         <link title="Indian Ebooks">@indianebooks</link>
@@ -104,74 +220,280 @@
         <link title="English AUDIO Books">@eng_audiobooks</link>
         <link title="Drama Books">@Drama</link>
         <link title="MEDICAL Books">@freemedicalebook</link>
+		<link title="Comic books">@comic_books</link>
+		<link title="Engineering Ebooks">@EngineeringEBookspdf</link>
+		<link title="Malayalam Books">@malayalampdf</link>
+	    <link title="Readers Paradise">@readers_paradise</link>
+	    <link title="B n F Magazines">@bnfmagz</link>
+	    <link title="Children Magazines">@bnfkids</link>
+	    <link title="Bnfbooks">@bnfbooks</link>
+	    <link title="Telibrarydotcom">@Telibrarydotcom</link>	
+	    <link title="PIT_PacktPubFreeLearning">@PIT_PacktPubFreeLearning</link>	
     </category>
-    <category name="All in One" id="12">
-        <link title="ALL in ONE">@All_in_one_place</link>
-        <link title="MEDIA SHARE">@iMediaShare</link>
-        <link title="TECHZIE">@techzie</link>
+	
+    <category name="Videos/Shortfilms" id="12">
+	    <link title="Video Songs">@ViduBox</link>
+	    <link title="CC Documentaries">@CC_Doc</link>
+	    <link title="Shorts n Docs">@bnfarchive</link>
+        <link title="Malayalam Shortfilms">@malayalam_shortfilms</link>
     </category>
+		
     <category name="News" id="13">
-        <link title="News Headlines">@newshead</link>
+        <link title="NewsHead Malayalam">@newshead</link>
+		<link title="NewsHead InstantView">@newsheadiv</link>
+		<link title="NewsHead English">@newsheadenglish</link>
+		<link title="NewsHead Hindi">@newsheadhindi</link>
+		<link title="NewsHead Video">@newsheadVideo</link>
         <link title="Newspaper Wala">@newspaperwala</link>
-        <link title="Fb news">@fbnews1</link>
         <link title="Gadget News ">@gadget_news</link>
-        <link title=" Technology News">@TechByte</link>
+        <link title="Technology News">@TechByte</link>
+		<link title="മഴവില്ല് മീഡിയ">https://telegram.me/joinchat/DwbMgEFqHgAgnu5msB31rw</link>
+		<link title="Oiva media News">@oivamedia</link>
+		<link title="Newshour">@newshour</link>
+		<link title="Theonlinemalayalam">@theonlinemalayalam</link>
+		<link title="NewsEbuzZ">@NewsEbuzZ</link>
     </category>
+	
     <category name="English" id="14">
         <link title="IELTS Aspirants">@IELTScapsule</link>
         <link title="Proficiency in English">@ProficiencyinEnglish</link>
         <link title="TOEFL Aspirants">@toefl</link>
-        <link title="English Audio Materials">https://t.me/eng_audio_materials</link>
+        <link title="English Audio Materials">@eng_audio_materials</link>
+	    <link title="English with Natives">@sirjimmy</link>
+	    <link title="The Most Common Mistakes">@tmc_mistakes</link>
     </category>
+
     <category name="Troll Channels" id="15">
-        <link title="Tintumon Kerala">@tintumonkerala</link>
         <link title="Best Memes">@bestmemes</link>
         <link title="TCM">@TCM11</link>
+	    <link title="TROLL Republic">@trollrepublic</link>
+	    <link title="MalayalamTrollVoice">@MalayalamTrollVoice</link>
+	    <link title="International Chalu Union">@icu_telegram</link>
+	    <link title="Troll Tech Malayalam">@TrollTechMalayalam</link>
         <link title="Funny way to learn for PSC">@psctrolls</link>
         <link title="TROLL Malayalam">@trollmalayalam</link>
         <link title="BTECH Trolls">@btechtroll</link>
-        <link title="International Chalu Union">@icu_telegram</link>
+        <link title="Telegram Trollans">@TGTrollans</link>
         <link title="Programmers Joke">@programmerjokes</link>
-        <link title="Politics Troll">@PETrollers</link>
-        <link title="SCT Trolls">@scttrolls</link>
+        <link title="SCT Trolls" >@scttrolls</link>
         <link title="Update">@updateee</link>
-        <link title="Fb Trolls">@fbtrolls</link>
         <link title="Sanki Trolls">@trollsanki</link>
+	    <link title="Troll Movies">@TrollMoviesOfficial</link>
+	    <link title="Dank Memes Malayalam">﻿﻿@dankmemesmalayalamofficial</link>
+	    <link title="Troll Mollywood">@trollmollywood1</link>
+	    <link title="Sarcasm">@Sarcastic_us</link>
+	    <link title="സംഘി ഫലിതങ്ങൾ ">@sangifalithangal</link>
+	    <link title="Sarcasm_lol">@sarcasm_lol</link>
     </category>
+		
     <category name="Programming" id="16">
         <link title="Programming Art">@theprogrammingart</link>
         <link title="Fake Coders">@fakecoder1</link>
         <link title="Hacking tricks">@HackingTricks</link>
     </category>
+	
     <category name="Meme Making" id="17">
         <link title="Malayalam memes">@malayalammememaker</link>
         <link title="Malayalam Troll pics">@malayalamtrollpic</link>
     </category>
+	
     <category name="Food and craft" id="18">
         <link title="diplydelicious">@diplydelicious</link>
         <link title="diplycrafty">@diplycrafty</link>
-        <link title="&#3370;&#3378;&#3385;&#3390;&#3376;&#3330; &#3354;&#3390;&#3368;&#3378;&#3405;&#8205;">@palaharam</link>
+        <link title="പലഹാരം ചാനല്‍">@palaharam</link>
+		<link title="Food Bus‍">@FoodBus</link>
     </category>
-    <category name="Others" id="18">
-	    <link title=" SuperGroups in Telegram">@viralgroup</link>
-        <link title="Fb entertainment">@fbenter10</link>
-	    <link title="Tg Malayalam">@tgMalayalam</link>
-	    <link title="&#3349;&#3399;&#3376;&#3379; &#3382;&#3390;&#3384;&#3405;&#3364;&#3405;&#3376;&#3384;&#3390;&#3385;&#3391;&#3364;&#3405;&#3375;&#3370;&#3376;&#3391;&#3383;&#3364;&#3405;&#3364;&#3405; &#3354;&#3390;&#3368;&#3378;&#3405;&#8205;">@gskssp</link>
-	    <link title="Telegram blogger">@Tgblogger</link>
-        <link title="For different Telegram links">@tg_link</link>
-	    <link title="BSNL Updates">@bsnlupdates</link>
-	    <link title="Askme Now">@AskmeNow</link>
-        <link title="Linux- Gram">@linuxgram</link>
-        <link title="Pics during traveling">@travelpics</link>
+	
+	<category name="TG Help/Links" id="19">
+		<link title="KeralaGram Channel">@keralagramchannel</link>
+		<link title="SuperGroups in Telegram">@viralgroup</link>
+		<link title="Telegram Channels">@TlgrmChannels</link>
+		<link title="Groups in Telegram">@groupsTelegram</link>
+		<link title="Good Telegram Groups">@goodtelegramgroups</link>
+		<link title="Telegram Professor">@tgprofessor</link>
+		<link title="TG Share">@tgshare</link>
+		<link title="TG Noob">@tgnoob</link>
+		<link title="TG Links">@tg_link</link>
+	</category>
+	
+	<category name="TG Themes" id="20">
+		<link title="TeleGram Themes">@attheme</link>
+		<link title="Desktop Themes">@themes</link>
+		<link title="Android Themes">@AndroidThemes</link>
+		<link title="Amoled Black Theme">@ABTheme</link>
+		<link title="Jertlok's Telegram Themes">@JertlokThemes</link>
+		<link title="Telegram Desktop | Android themes">@TDATSet</link>
+		<link title="Android Themes for Telegram">@androthminfo</link>
+		<link title="DarkOrange">@darkorangetheme</link>
+		<link title="Telegram Themes">@themeschannel</link>
+		<link title="DMJ Tdesktop-themes">@DMJ_Themes</link>
+		<link title="Telegram Themes">@themechannel</link>
+		<link title="AThemes">@AThemes</link>
+		<link title="Android Themes">@TGAndroidThemes</link>
+	</category>
+	
+	<category name="Literature" id="21">
+        <link title="നഭസ്സ്">@nabhass</link>
+	    <link title="Chillummakal">@chillummakal</link>
+	    <link title="സാഹിതി">@saahithi</link>
+	    <link title="Bhashapadanam">@bhashapadanam</link>
+	    <link title="Arivuchannel">@arivuchannel</link>
+    </category>
+	
+	<category name="Film News" id="22">
+        <link title="Film World" >@FilmWrldC</link>
+		<link title="MollYwooD DiarieS">@mollywooddiaries</link>
+		<link title="CineWood Media">@CineWoodMedia</link>
+	    <link title="സിനിമാലോകം">@cinemalokamonline</link>
+	    <link title="YOUCOM MEDIA">@Youcommedia</link>
+    </category>
+	
+	<category name="Wallpapers" id="23">
         <link title="Wallpapers for phone">@PhoneWallpapers</link>
-        <link title="IOS jail breaked Apps">@iOSAppsFree</link>
-        <link title="Love stories">@luvstory143</link>
-        <link title="Feathers of love">@FeathersOfLove</link>
-        <link title="Bio Vision">@bio_vision</link>
-        <link title="Telegram Channels">@TlgrmChannels</link>
-        <link title="Groups in Telegram">@groupsTelegram</link>
-        <link title="Good telegram Groups">@goodtelegramgroups</link>
-        
+		<link title="Osum Walls">@OsumWalls</link>
+		<link title="SJ Wallpaper">@SJ_WALLPAPER</link>
+    </category>
+	
+    <category name="Technology" id="24">
+        <link title="Arivukal">@arivukal</link>
+		<link title="Tech Lokam">@techlokam</link>
+	    <link title="Think 4 Tech">@think4tech</link>
+	    <link title="Ebadurahman Tech">@EbadurahmanTech</link>
+	    <link title="Ratheesh R Menon">@RatheeshRMenon</link>
+	    <link title="Android Community Kerala">@AndroidCommunityKerala</link>
+	    <link title="iPhone Doctor">@iphonedoctorhere</link>
+        <link title="IT World Group Info">@itworldsupergroup</link>
+	    <link title="ടെക്നോളജി ">@mallutechtrick</link>
+	    <link title="Techkeralas">@techkeralas</link>
+	    <link title="Techmanofficial">@techmanofficial</link>
+	    <link title="Smartprix">@smartprix</link>
+	    <link title="AndroidCommunityKerala">@AndroidCommunityKerala</link>
+		<link title="iHacks IOS">@iHacks</link>
+	</category>
+	
+	<category name="Love, Frndshp" id="25">
+		<link title="Feathers of love">@FeathersOfLove</link>
+		<link ttle="മഴയുടെ ചുംബനങ്ങൾ">@kiss_of_rain</link>
+		<link ttle="The_idealist">@the_idealist</link>
+		<link ttle="Shareloves">@shareloves</link>
+		<link ttle="Feelmylove">@feelmylove</link>
+		<link ttle="LoveBytes">@LoveBytes</link>
+	</category>
+	
+    <category name="Personal pages" id="26">
+        <link title="Vaisakhan Thampi">@vaisakhanthampi</link>
+	    <link title="സി. രവിചന്ദ്രൻ">@c_ravichandran</link>
+	    <link title="പിണറായി സർക്കാർ">@tgldf</link>
+        </category>
+		
+    <category name="Travel" id="27">
+	    <link title="സഞ്ചാരം">@sanchaaram</link>
+	    <link title="സഞ്ചാരി">@teamsanchari</link>
+		<link title="Pics during traveling">@travelpics</link>
+        <link title="Beautiful Land">@beautiful_land</link>
+        <link title="Travel Photos">@travel_photos</link>
+    </category>
+	
+    <category name="Deals and Offers" id="28">
+        <link title="Play Store Deals">@playstoredeal</link>
+	    <link title="Dealz India">@dealzindia</link>
+	    <link title="Flipkart Offer Zone">@flipkartofferzone</link>
+	    <link title="Mega Deals">@wowdeals</link>
     </category>
 
-<category id="20" name="mujee"/><category id="21" name=",\mmm"/><category id="22" name="Testttt"/><category id="23" name="mm"/><category id="24" name="but why?"/><category id="25" name="claby"/><category id="26" name="Eureka"><link title="Muji">Muji</link><link title="jaba">jaba</link></category></data>
+    <category name="Sports" id="29">
+	    <link title="Kerala BLasters">@keralablasters</link>
+	    <link title="മഞ്ഞപ്പട">@islkbfc</link>
+	    <link title="Royal Sports Arena">@royalsportsarena</link>
+	    <link title="Real Madrid Family Kerala">@rmakerala</link>
+	    <link title="Sports4Life">@Sports4Life</link>
+	    <link title="messifanskerala">@messifanskerala</link>
+    </category>
+	
+    <category name="History" id="30">
+	    <link title="ചരിത്രാന്വേഷികൾ">@malayalamhistory</link>
+	    <link title="അജ്ഞാത ലോകം ">@unknowworld</link>
+    </category>
+	
+    <category name="Health" id="31">
+	    <link title="Info Clinic">@infoclinicindia</link>
+	    <link title="ആരോഗ്യം">@aarogyam</link>
+	    <link title="വൈദ്യശാല ">@Vaidyashala</link>
+	    <link title="Sahachara Ayurveda">@sahacharaayurveda</link>
+    </category>
+	
+    <category name="All in One" id="32">
+	    <link title="Quality Stuff">@QualiStuff</link>
+	    <link title="MEDIA SHARE">@iMediaShare</link>
+	    <link title="MF Mix Official Links">@mfmixlinks</link>
+    </category>
+   
+    <category name="Film Stars" id="33">
+	    <link title="Prithviraj Fans">@prithvirajfansonline</link>
+	    <link title="Gilli boys kerala">@ghilliboyskerala</link>
+	    <link title="Youth Icons">@youth_icons</link>
+	    <link title="Dq മരണമാസ്സ്:tm:">@dqmaranamass</link>
+	    <link title="Actorsuriya:">@actorsuriya</link>
+	</category>
+	
+    <category name="Gnu/Linux" id="34">
+	    <link title="Gnu/Linux">@gnulinux_kerala</link>
+	    <link title="Linuxgram">@linuxgram</link>
+    </category>
+	
+    <category name="Religion" id="35">
+	    <link title="The Light of Quran">@thelightofquranAMK</link>
+	    <link title="Rightandtrueislam">@rightandtrueislam</link>
+	    <link title="malankarachurch">@malankarachurch</link>
+    </category>
+	
+    <category name="Craft" id="36">
+		<link title="DIYTube">@DIYTube</link>
+		<link title="howto_diy">@howto_diy</link>
+    </category>
+	
+    <category name="Education" id="37">
+		<link title="CivilServiceAspirants">@CivilServiceAspirants</link>
+		<link title="CSAspirants">@CSAspirants</link>
+    </category>
+	
+    <category name="Photography" id="38">
+		<link title="Mobilecam">@mobilecam</link>
+    </category>
+	
+    <category name="Places" id="39">
+		<link title="Kozhikodedistrict">@kozhikodedistrict</link>
+    </category>
+
+    <category name="Tutorials" id="40">
+		<link title="AfterEffectIndro">@AfterEffectIndro</link>
+    </category>
+	
+    <category name="Others" id="41">
+	    <link title="Fb entertainment">@fbenter10</link>
+	    <link title="Tg Malayalam">@tgMalayalam</link>
+	    <link title="കേരള ശാസ്ത്രസാഹിത്യപരിഷത്ത് ചാനല്‍">@gskssp</link>
+	    <link title="Telegram blogger">@Tgblogger</link>
+		<link title="BSNL Kerala">@bsnl_kerala</link>
+	    <link title="BSNL Updates">@bsnlupdates</link>
+	    <link title="Askme Now" >@AskmeNow</link>
+        <link title="Bio Vision">@bio_vision</link>
+		<link title="Entrepreneurs Kerala">@entrepreneurs_kerala</link>
+		<link title="Log¡¢">@logic_works</link>
+		<link title="Krishi Padam">@krishipadam</link>
+		<link title="Malayalam Status">@malayalamstatus</link>
+		<link title="sharechat">@scvirals</link>
+        <link title="POLLS KERALA">@pollskerala</link>
+        <link title="Bit Coin">@bitaltnews</link>
+        <link title="TGVIRALS">@TGVIRALS</link>
+        <link title="Cptdennis">@Cptdennis</link>
+        <link title="phalithangal">@phalithangal</link>
+        <link title="Sahayahastham ">@sahayahastham</link>
+        <link title="Fitmallu">@fitmallu</link>
+        <link title="Tally2u">@Tally2u</link>
+        <link title="Dancersworld">@dancersworld</link>
+        <link title="learnto_draw">@learnto_draw</link>
+		<link title="RJ Kerala">@rjkerala</link>
+    </category>
+
+</data>
