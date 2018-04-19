@@ -1,141 +1,140 @@
-<?xml version="1.0" encoding='utf-8'?>
 <data>
     <category name="Keralagram" id="0">
-        <link title="ടെലിഗ്രാമം | KeralaGram">@KeralaGram</link>
-		<link title="ടെലിഗ്രാമം ചോദിക്കാം പറയാം">@KeralaGramQA</link>
+        <link title="&#3359;&#3398;&#3378;&#3391;&#3351;&#3405;&#3376;&#3390;&#3374;&#3330; | KeralaGram">@KeralaGram</link>
+		<link title="&#3359;&#3398;&#3378;&#3391;&#3351;&#3405;&#3376;&#3390;&#3374;&#3330; &#3354;&#3403;&#3366;&#3391;&#3349;&#3405;&#3349;&#3390;&#3330; &#3370;&#3377;&#3375;&#3390;&#3330;">@KeralaGramQA</link>
 		<link title="Discussion Group">@KeralaGramDebates</link>
-		<link title="കേരള രക്തദാന ഗ്രൂപ്പ്‌">@KeralaDonors</link>
+		<link title="&#3349;&#3399;&#3376;&#3379; &#3376;&#3349;&#3405;&#3364;&#3366;&#3390;&#3368; &#3351;&#3405;&#3376;&#3394;&#3370;&#3405;&#3370;&#3405;&#8204;">@KeralaDonors</link>
 		<link title="Gamee Keralagram">@KeralagramGamee</link>
     </category>
     
 	<category name="Friendship" id="1">
-		<link title="ചങ്ക്സിന്റെ ചങ്ക്">@TgChunks</link>
-		<link title="പകച്ച് പോയി എൻറ്റെ ബാല്യം ">@PakachuPoyi</link>
-        <link title="ചങ്ങാതികൂട്ടം">@TgKerala</link>
-		<link title="അടുക്കള">@tgadukkala</link>
-		<link title="ചട്ടീം കലോം">@chattiyumkalavum</link>
-        <link title="ചിരിയും തമാശയും">@TGVIRAL</link>
-		<link title="കേരള കഫെ">@gramgroup</link>
-		<link title="മല്ലു ബഡ്ഡിസ്സ്">@mallubuddys</link>
+		<link title="&#3354;&#3353;&#3405;&#3349;&#3405;&#3384;&#3391;&#3368;&#3405;&#3377;&#3398; &#3354;&#3353;&#3405;&#3349;&#3405;">@TgChunks</link>
+		<link title="&#3370;&#3349;&#3354;&#3405;&#3354;&#3405; &#3370;&#3403;&#3375;&#3391; &#3342;&#3451;&#3377;&#3405;&#3377;&#3398; &#3372;&#3390;&#3378;&#3405;&#3375;&#3330; ">@PakachuPoyi</link>
+        <link title="&#3354;&#3353;&#3405;&#3353;&#3390;&#3364;&#3391;&#3349;&#3394;&#3359;&#3405;&#3359;&#3330;">@TgKerala</link>
+		<link title="&#3333;&#3359;&#3393;&#3349;&#3405;&#3349;&#3379;">@tgadukkala</link>
+		<link title="&#3354;&#3359;&#3405;&#3359;&#3392;&#3330; &#3349;&#3378;&#3403;&#3330;">@chattiyumkalavum</link>
+        <link title="&#3354;&#3391;&#3376;&#3391;&#3375;&#3393;&#3330; &#3364;&#3374;&#3390;&#3382;&#3375;&#3393;&#3330;">@TGVIRAL</link>
+		<link title="&#3349;&#3399;&#3376;&#3379; &#3349;&#3371;&#3398;">@gramgroup</link>
+		<link title="&#3374;&#3378;&#3405;&#3378;&#3393; &#3372;&#3361;&#3405;&#3361;&#3391;&#3384;&#3405;&#3384;&#3405;">@mallubuddys</link>
 		<link title="Singers Lounge">@singerslounge</link>
 		<link title="Singers Lounge OffTopic">@singersloungeOT</link>
 		<link title="Mobile Photography">@mobilecam</link>
 		<link title="MY photography">@mobile_clicks</link>
-		<link title="ഹിമാലയം">@himalayam</link>
+		<link title="&#3385;&#3391;&#3374;&#3390;&#3378;&#3375;&#3330;">@himalayam</link>
     </category>
 	
 	<category name="Books and Magazines" id="2">
-		<link title="A GRoUP Of eBooKz®">@EbookzGroup</link>
+		<link title="A GRoUP Of eBooKz&#174;">@EbookzGroup</link>
 	</category>
     
 	<category name="Learning Groups" id="3">
 		<link title="Physics Books Group">@phybooks1</link>
 		<link title="Science Explosion">@science_explosion</link>
-		<link title="ശാസ്ത്രാന്വേഷികൾ">@scienceMalayalam</link>
+		<link title="&#3382;&#3390;&#3384;&#3405;&#3364;&#3405;&#3376;&#3390;&#3368;&#3405;&#3381;&#3399;&#3383;&#3391;&#3349;&#3454;">@scienceMalayalam</link>
 		<link title="Biovisions (SCERT)">@biovisions</link>
     </category>
     
 	<category name="Travel" id="4">
-        <link title="യാത്രികര്‍  Life Explorers">@explorerz</link>
+        <link title="&#3375;&#3390;&#3364;&#3405;&#3376;&#3391;&#3349;&#3376;&#3405;&#8205;  Life Explorers">@explorerz</link>
     </category>
     
 	<category name="Literature" id="5">
-        <link title="എഴുത്തൊച്ച">@ezhuthochha</link>
-        <link title="മ്മടെ സ്വന്തം എഴ്ത്ത്പെര">@ezhutthupura</link>
+        <link title="&#3342;&#3380;&#3393;&#3364;&#3405;&#3364;&#3402;&#3354;&#3405;&#3354;">@ezhuthochha</link>
+        <link title="&#3374;&#3405;&#3374;&#3359;&#3398; &#3384;&#3405;&#3381;&#3368;&#3405;&#3364;&#3330; &#3342;&#3380;&#3405;&#3364;&#3405;&#3364;&#3405;&#3370;&#3398;&#3376;">@ezhutthupura</link>
     </category>
     
-	<category name= "Technology" id="6">
-	    <link title="സ്മാർട്ട്‌‌ഫോൺ യൂസേർസ്">@SpUsers</link>
+	<category name="Technology" id="6">
+	    <link title="&#3384;&#3405;&#3374;&#3390;&#3452;&#3359;&#3405;&#3359;&#3405;&#8204;&#8204;&#3371;&#3403;&#3450; &#3375;&#3394;&#3384;&#3399;&#3452;&#3384;&#3405;">@SpUsers</link>
         <link title="GNU/Linux Lovers">@gnulinuxlovers</link>
 		<link title="Kerala Developers">@KeralaDevelopers</link>
 	    <link title="Microsoft Windows Users">@microsoftwindows</link>
 	    <link title="MAC OS Users">@macosusers</link>
-		<link title="iPhone കമ്മ്യൂണിറ്റി">@iPhoneDoctorMe</link>
-	    <link title="TG ടെക് കേരള">@tgkeralatech</link>
+		<link title="iPhone &#3349;&#3374;&#3405;&#3374;&#3405;&#3375;&#3394;&#3363;&#3391;&#3377;&#3405;&#3377;&#3391;">@iPhoneDoctorMe</link>
+	    <link title="TG &#3359;&#3398;&#3349;&#3405; &#3349;&#3399;&#3376;&#3379;">@tgkeralatech</link>
 	    <link title="OnePlus Kerala">@OnePlusKerala</link>
 	    <link title="Xiaomi Mi fans Official">@mifckerala</link>
-		<link title="MI A1 കേരളം">@MIA1Kerala</link>
+		<link title="MI A1 &#3349;&#3399;&#3376;&#3379;&#3330;">@MIA1Kerala</link>
 	    <link title="XDA-OT">@xdaofftopicgroup</link>
 		<link title="Tech Keralas">@techkeralas</link>
 		<link title="InFoTel ProStore">@InFoTelGroup</link>
 		<link title="PC discussion forum">@pc_discussion_forum</link>
-		<link title="ചോദിക്കൂ പറയാം">https://t.me/joinchat/AAAAAEGT4-pNVekoeuSXmw</link>
+		<link title="&#3354;&#3403;&#3366;&#3391;&#3349;&#3405;&#3349;&#3394; &#3370;&#3377;&#3375;&#3390;&#3330;">https://t.me/joinchat/AAAAAEGT4-pNVekoeuSXmw</link>
 		<link title="Pirated DLs">https://t.me/joinchat/AHAujEJh_BnBDVX0VaRNOg</link>
     </category>
     
-	<category name= "Vehicles" id="7">
+	<category name="Vehicles" id="7">
         <link title="AUTOMOBILES-BIKES and CARS">@autobc</link>
     </category>
     
 	<category name="Food" id="8">
-        <link title="പലഹാരം ഗ്രൂപ്പ്">@palaharamgroup</link>
+        <link title="&#3370;&#3378;&#3385;&#3390;&#3376;&#3330; &#3351;&#3405;&#3376;&#3394;&#3370;&#3405;&#3370;&#3405;">@palaharamgroup</link>
     </category>
     
 	<category name="Cinema" id="9">
-        <link title="സിനിമാ ചർച്ചകൾ">@movie_talks</link>
-        <link title="സിനിമ കമ്പനി">@cinema_company</link>
+        <link title="&#3384;&#3391;&#3368;&#3391;&#3374;&#3390; &#3354;&#3452;&#3354;&#3405;&#3354;&#3349;&#3454;">@movie_talks</link>
+        <link title="&#3384;&#3391;&#3368;&#3391;&#3374; &#3349;&#3374;&#3405;&#3370;&#3368;&#3391;">@cinema_company</link>
 	    <link title="WORLD MOVIE ROCKERZ">@WMR_GROUP</link>
         <link title="Cloud Movies">@cloudmovies</link>
-	    <link title="സിനിമാറ്റിക് വേൾഡ്">@CinematicWorld</link>
-		<link title="¢ιиємαтι¢ ωσяℓ∂">@Cinematic_World</link>
-	    <link title="സിനിമ കൊട്ടക">@cinemakottakaa</link>
+	    <link title="&#3384;&#3391;&#3368;&#3391;&#3374;&#3390;&#3377;&#3405;&#3377;&#3391;&#3349;&#3405; &#3381;&#3399;&#3454;&#3361;&#3405;">@CinematicWorld</link>
+		<link title="&#162;&#953;&#1080;&#1108;&#1084;&#945;&#1090;&#953;&#162; &#969;&#963;&#1103;&#8467;&#8706;">@Cinematic_World</link>
+	    <link title="&#3384;&#3391;&#3368;&#3391;&#3374; &#3349;&#3402;&#3359;&#3405;&#3359;&#3349;">@cinemakottakaa</link>
 		<link title="Korean Movie Lovers">@KoreanMovieLovers</link>
 	    <link title="Mobile Movie Mania Group">@mobile_mmg</link>
 		<link title="Mallu Movies Group">@Mallumoviesgroup</link>
-		<link title="PaRaVa Mania™">@paravamania</link>
+		<link title="PaRaVa Mania&#8482;">@paravamania</link>
 	</category>
 
 	<category name="Fans" id="10">
         <link title="Mammootty Fans Online">@mammookkafans</link>
 		<link title="MAMOOTTY FANS CLUB #MFC">@Mammookkaa</link>
-        <link title="ലാലേട്ടനും പിള്ളേരും">@laletanonline</link>
+        <link title="&#3378;&#3390;&#3378;&#3399;&#3359;&#3405;&#3359;&#3368;&#3393;&#3330; &#3370;&#3391;&#3379;&#3405;&#3379;&#3399;&#3376;&#3393;&#3330;">@laletanonline</link>
         <link title="Mohanlal Fans Online Association">@lfaonline</link>
 		<link title="Suriya Fans Club">@SuriyaFansClub</link>
 		<link title="DQ Online Fans">@dqfans</link>
-		<link title="DQ മരണമാസ്സ്">@dqmaranamass</link>
+		<link title="DQ &#3374;&#3376;&#3363;&#3374;&#3390;&#3384;&#3405;&#3384;&#3405;">@dqmaranamass</link>
 		<link title="Pulimurugan">@Pulimurugan9099</link>
         <link title="Nivin Pauly Online">@nivinpaulyonline</link>
-		<link title="ടോവിനോ തോമസ് ഫാൻസ്">@tovinothomas</link>
+		<link title="&#3359;&#3403;&#3381;&#3391;&#3368;&#3403; &#3364;&#3403;&#3374;&#3384;&#3405; &#3371;&#3390;&#3451;&#3384;&#3405;">@tovinothomas</link>
 		<link title="Fan Fight Club">@FanFightClub</link>
 		<link title="Game of Thrones FC">@GameOfThronesFC</link>
-	    <link title="ക്രിസ്റ്റിഫർ നോളൻ Fans">@nolettan</link>
+	    <link title="&#3349;&#3405;&#3376;&#3391;&#3384;&#3405;&#3377;&#3405;&#3377;&#3391;&#3371;&#3452; &#3368;&#3403;&#3379;&#3451; Fans">@nolettan</link>
         <link title="MAMOOTTY FANS CLUB #MFC">@Mammookkaa</link>
-        <link title="Gilli Bøys Kerala">@gilliboyskerala</link>
+        <link title="Gilli B&#248;ys Kerala">@gilliboyskerala</link>
         <link title="PFC ONLINE">@prithvirajfansclub</link>
     </category>
     
 	<category name="Jobs/PSC" id="11">
         <link title="Kerala PSC Corner">@padippura</link>
 	    <link title="Job Seekers">@seekjobs</link>
-		<link title="സാമർത്ഥ്യ PsC">@samarthyagroup</link>
+		<link title="&#3384;&#3390;&#3374;&#3452;&#3364;&#3405;&#3365;&#3405;&#3375; PsC">@samarthyagroup</link>
 		
     </category>
 	
 	<category name="District Wise" id="12">
 	    <link title="Trivandrum">@tvmgroup</link>
-        <link title="കിനാവിലെ മലപ്പുറം">@Malappuram</link>
+        <link title="&#3349;&#3391;&#3368;&#3390;&#3381;&#3391;&#3378;&#3398; &#3374;&#3378;&#3370;&#3405;&#3370;&#3393;&#3377;&#3330;">@Malappuram</link>
 		<link title="Thrissur">@thrissurgram</link>
-		<link title="കോഴിക്കോട് ">@kozhikode</link>
-		<link title="ആലപ്പുഴ - കിഴക്കിന്റെ വെനീസ്">@Alappuzha</link>
-		<link title="പാലക്കാട്">@palakkad</link>
+		<link title="&#3349;&#3403;&#3380;&#3391;&#3349;&#3405;&#3349;&#3403;&#3359;&#3405; ">@kozhikode</link>
+		<link title="&#3334;&#3378;&#3370;&#3405;&#3370;&#3393;&#3380; - &#3349;&#3391;&#3380;&#3349;&#3405;&#3349;&#3391;&#3368;&#3405;&#3377;&#3398; &#3381;&#3398;&#3368;&#3392;&#3384;&#3405;">@Alappuzha</link>
+		<link title="&#3370;&#3390;&#3378;&#3349;&#3405;&#3349;&#3390;&#3359;&#3405;">@palakkad</link>
         <link title="Nammude kollam">@kollamchat</link>
-        <link title="എന്റെ പത്തനംതിട്ട">@ente_pathanamthitta</link>
-		<link title="എറണാകുളം">@Ernakulam</link>
-        <link title="നുമ്മട കൊച്ചി">@teleernakulam</link>
-		<link title="നമ്മുടെ കണ്ണൂർ">@My_kannur</link>
+        <link title="&#3342;&#3368;&#3405;&#3377;&#3398; &#3370;&#3364;&#3405;&#3364;&#3368;&#3330;&#3364;&#3391;&#3359;&#3405;&#3359;">@ente_pathanamthitta</link>
+		<link title="&#3342;&#3377;&#3363;&#3390;&#3349;&#3393;&#3379;&#3330;">@Ernakulam</link>
+        <link title="&#3368;&#3393;&#3374;&#3405;&#3374;&#3359; &#3349;&#3402;&#3354;&#3405;&#3354;&#3391;">@teleernakulam</link>
+		<link title="&#3368;&#3374;&#3405;&#3374;&#3393;&#3359;&#3398; &#3349;&#3363;&#3405;&#3363;&#3394;&#3452;">@My_kannur</link>
 		<link title="Cazrod_mownjanz">@cazrod_mownjanz</link>
     </category>
     
 	<category name="Religion" id="13">
-	    <link title="ഖുർആൻ പാഠശാല">@Quranpadashala</link>
+	    <link title="&#3350;&#3393;&#3452;&#3334;&#3451; &#3370;&#3390;&#3360;&#3382;&#3390;&#3378;">@Quranpadashala</link>
 		<link title="Dinkoist's Collective">@dinkacollective</link>
-		<link title="ദൈവ ദശകം">https://t.me/joinchat/AAAAAEJX-MVyiZyJEMsDWQ</link>
+		<link title="&#3366;&#3400;&#3381; &#3366;&#3382;&#3349;&#3330;">https://t.me/joinchat/AAAAAEJX-MVyiZyJEMsDWQ</link>
     </category>
     
 	<category name="Troll/Plainmeme" id="14">
         <link title="Request plain Memes">@plainmeme</link>
-	    <link title="ടെലിഗ്രാം ട്രോളൻസ്">@tgtrollan</link>
-	    <link title="ട്രോൾ ടെക്‌‌‌ മലയാളം">@TrollTechGroup</link>
+	    <link title="&#3359;&#3398;&#3378;&#3391;&#3351;&#3405;&#3376;&#3390;&#3330; &#3359;&#3405;&#3376;&#3403;&#3379;&#3451;&#3384;&#3405;">@tgtrollan</link>
+	    <link title="&#3359;&#3405;&#3376;&#3403;&#3454; &#3359;&#3398;&#3349;&#3405;&#8204;&#8204;&#8204; &#3374;&#3378;&#3375;&#3390;&#3379;&#3330;">@TrollTechGroup</link>
     </category>
     
 	<category name="Music" id="15">
@@ -146,14 +145,14 @@
     </category>
     
 	<category name="Politics" id="16">
-		<link title="പിണറായി സർക്കാർ">@tgldf</link>
+		<link title="&#3370;&#3391;&#3363;&#3377;&#3390;&#3375;&#3391; &#3384;&#3452;&#3349;&#3405;&#3349;&#3390;&#3452;">@tgldf</link>
     </category>
 	
     <category name="Sports" id="17">
 	      <link title="Total Football">@totfootball</link>
-          <link title="നീലപ്പട - Indian Football">@manjappada</link>
+          <link title="&#3368;&#3392;&#3378;&#3370;&#3405;&#3370;&#3359; - Indian Football">@manjappada</link>
           <link title="CricLovers">@criclovers</link>
-          <link title="KBFC- മഞ്ഞപ്പട">@keralablaster</link>
+          <link title="KBFC- &#3374;&#3358;&#3405;&#3358;&#3370;&#3405;&#3370;&#3359;">@keralablaster</link>
 		   
 	</category>
 	
@@ -165,16 +164,16 @@
     
 	<category name="Community" id="19">
 	    <link title="Barcamp Kerala">@barCampKerala</link>
-    </category>
+    <link title="FSCI">@fsci</link></category>
 	
     <category name="Others" id="20">
 	    <link title="Right Thinkers">@RightThinkers</link>
-		<link title="സ്വതന്ത്ര ചിന്തകർ">@RationalThinkers</link>
+		<link title="&#3384;&#3405;&#3381;&#3364;&#3368;&#3405;&#3364;&#3405;&#3376; &#3354;&#3391;&#3368;&#3405;&#3364;&#3349;&#3452;">@RationalThinkers</link>
 		<link title="Fit Mallu">@fitmallu</link>
 		<link title="Designer's Club of Kerala">@designersclubkerala</link>
-        <link title="ടെക്‌ KTU">@Fests4students</link>
+        <link title="&#3359;&#3398;&#3349;&#3405;&#8204; KTU">@Fests4students</link>
         <link title="Teachers Kerala">@teacherskerala</link>
-		<link title="കേരള സർക്കാർ ജീവനക്കാർ-അദ്ധ്യാപകർ">@govtemployees_teachers</link>
+		<link title="&#3349;&#3399;&#3376;&#3379; &#3384;&#3452;&#3349;&#3405;&#3349;&#3390;&#3452; &#3356;&#3392;&#3381;&#3368;&#3349;&#3405;&#3349;&#3390;&#3452;-&#3333;&#3366;&#3405;&#3367;&#3405;&#3375;&#3390;&#3370;&#3349;&#3452;">@govtemployees_teachers</link>
         <link title="Events Kerala">@eventskerala</link>
         <link title="Polls Kerala">@pollkerala</link>
 	</category>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding='utf-8'?>
 <data>
     <category name="Telegram Bots" id="0">
         <link title="create a bot">@botfather</link>
@@ -12,7 +11,7 @@
     </category>
     <category name="Audio and Video" id="1">
         <link title="DjSets">@DJSetsBot</link>
-		<link  title="YoutubeVideos">@vid</link>
+		<link title="YoutubeVideos">@vid</link>
 		<link title="SaveVideo">@savevideobot</link>
         <link title="justvideobot">@justvideobot</link>
         <link title="MyMusicBot">@MyMusicBot</link>
@@ -37,7 +36,7 @@
 		<link title="ImageTranslateBot">@ImageTranslateBot</link>      
 		<link title="qrcrbot">@qrcrbot</link>
 		<link title="EditMeBot">@EditMeBot</link>
-		<link title="bing">@bing></link>
+		<link title="bing">@bing&gt;</link>
 		<link title="pic">@pic</link>
 		<link title="allwallpaperbot">@allwallpaperbot</link>
 		<link title="imgmagicbot">@imgmagicbot</link>
@@ -61,7 +60,7 @@
         <link title="">@gif</link>
         <link title="">@coub</link>
     </category>
-    <category name= "Stickers" id="5">
+    <category name="Stickers" id="5">
         <link title="stckrbot">@stckrbot</link>
 		<link title="sticker">@sticker</link>
 		<link title="StickerpipeBot">@StickerpipeBot</link>
@@ -69,7 +68,7 @@
         <link title="Stickerdownloadbot">@Stickerdownloadbot</link>
 		<link title="Make your stickers">@HowToMakeStickersBot</link>
     </category>
-    <category name= "Movies and Series" id="6">
+    <category name="Movies and Series" id="6">
         <link title="IndianMoviesBot">@IndianMoviesBot</link>
         <link title="imdb">@imdb</link>
         <link title="MovieS4bot">@MovieS4bot</link>
@@ -155,7 +154,7 @@
     <category name="Online shopping" id="13">
 		<link title="Amazondirectbot">@amazondirectbot</link>
 		<link title="flipkartsearchbot">@flipkartsearchbot</link>
-	</category>
+	<link title="flipkart">@flipkartbottts</link></category>
     <category name="Others" id="14">
         <link title="wiki">@wiki</link>
         <link title="siftbot">@siftbot</link>
@@ -176,5 +175,3 @@
         <link title="aanavandibot">@aanavandibot</link>
     </category>
 </data>
-
-

@@ -61,10 +61,17 @@ def main():
         level=logging.INFO)
     dispatcher.add_error_handler(error_callback)
     channelAdmin_handler = ConversationHandler(
-        entry_points=[CommandHandler('channelAdmin', Channel.addEntry)],
+        entry_points=[CommandHandler('channelAdmin', Channel.adminButton)],
         states={
-           Channel.NEW_CATEG: [RegexHandler('(Yes)', Channel.addNewCategory),
-                                RegexHandler('(No, add to existing category)',
+		    Channel.NEW_ENTRY : [RegexHandler('(Add Channel)', Channel.addEntry),
+                     RegexHandler('(Delete Channel)', listsui.groupsEntry),
+                     RegexHandler('(Add Group)', Channel.addEntry),
+                     RegexHandler('(Delete Group)', Channel.addEntry),
+                     RegexHandler('(Cancel)', cancel),
+                     RegexHandler('(Add Bot)', Channel.addEntry),
+                     RegexHandler('(Delete Bot)', Channel.addEntry)],
+            Channel.NEW_CATEG: [RegexHandler('(Yes)', Channel.addNewCategory),
+                                RegexHandler('No, add to existing category|Show Categories',
                                              Channel.showCategory)],
             Channel.SAVE_CATEG: [MessageHandler(Filters.text,
                                                 Channel.addSaveCategory),
@@ -73,6 +80,7 @@ def main():
                            CallbackQueryHandler(Channel.addTitle)],
             # Channel.SHOW_CATEG: [
             Channel.URL: [MessageHandler(Filters.text, Channel.addUrl)],
+            Channel.SHWCTG  : [MessageHandler(Filters.text, Channel.showCategory)],
             Channel.WRITE: [MessageHandler(Filters.text, Channel.addWrite)]
         },
         fallbacks=[CommandHandler('cancel', cancel)]

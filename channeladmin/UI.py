@@ -14,12 +14,31 @@ class UI:
             datefmt='%m/%d/%Y %I:%M:%S %p')
         self.xml_path = "path to xml"
         (self.NEW_CATEG, self.SAVE_CATEG, self.SHOW_CATEG, self.TITLE,
-         self.URL, self.WRITE) = range(6)
+         self.URL, self.WRITE, self.SHWCTG, self.NEW_ENTRY) = range(8)
         self.Title = ""
         self.Url = ""
         self.Cat = ""
         self.xml = xml
+        self.path = ""
 
+    def adminButton(self, bot, update):
+        custom_keyboard = [
+          ['Add Channel'],
+          ['Delete Channel'],
+          ['Add Group'],
+          ['Delete Group'],
+          ['Add Bot'],
+          ['Delete Bot'],
+          ['Cancel']]
+        reply_markup = ReplyKeyboardMarkup(
+                  custom_keyboard, one_time_keyboard=True)
+        bot.sendMessage(
+                  chat_id=update.message.chat_id,
+                  text="ആവശ്യമുള്ളത് തിരഞ്ഞെടുക്കുക",
+                   parse_mode='Markdown',
+                  reply_markup=reply_markup)
+        return self.NEW_ENTRY
+      
     def addEntry(self, bot, update):
         """
         Conversation: Add
@@ -28,6 +47,15 @@ class UI:
         Entry point for channel updation
         Prompts channel name
         """
+        entryid = update.message.text
+        print(entryid)
+        if entryid == 'Add Channel':
+          self.path = 'file_xml/chan.xml'
+        if entryid == 'Add Group':
+          self.path = 'file_xml/groups.xml'  
+        if entryid == 'Add Bot':
+          self.path = 'file_xml/bot.xml'  
+          print(self.path)
         custom_keyboard = [['Yes', 'No, add to existing category']]
         reply_markup = ReplyKeyboardMarkup(
             custom_keyboard, one_time_keyboard=True)
@@ -62,11 +90,14 @@ class UI:
         Handler: Message("Category Name")
         Accepts category name
         """
-        # cat_name = update.message.text
-        # self.xml.addCategory(cat_name)
-        bot.sendMessage(chat_id=update.message.chat_id,
-                        text='New category Added')
-        self.showCategory(bot, update)
+        self.cat_name = update.message.text
+        self.xml.addCategory(self.cat_name, self.path)
+        bot.sendMessage(
+            chat_id=update.message.chat_id,
+            text="Succesfully Added New Category type OK to continue")
+        return self.SHWCTG    
+        
+       
 # Cleaned UP-->
 
     def showCategory(self, bot, update):
@@ -78,7 +109,8 @@ class UI:
         bot.sendMessage(
             chat_id=update.message.chat_id,
             text="Selecet required category")
-        categories = self.xml.getCategories()
+        print(self.path)    
+        categories = self.xml.getCategories(self.path)
         keyboard = []
         size = 3
         for i in range(0, len(categories), size):
@@ -99,10 +131,13 @@ class UI:
         Accepts channel title to Title variable
         Prompts channel url
         """
+        self.query = update.callback_query
+        self.cat_id = self.query.data
+        
         # self.Cat = update.callback_query.message.text
         bot.sendMessage(chat_id=update.callback_query.message.chat_id,
                         text="Enter The Title of The Channel")
-        # self.Title = update.message.text
+        # ~ self.Title = update.callback_query.message.text
         return self.URL
 
     def addUrl(self, bot, update):
@@ -114,7 +149,6 @@ class UI:
         self.Title = update.message.text
         bot.sendMessage(chat_id=update.message.chat_id,
                         text="Enter The channel Url")
-        self.Url = update.message.text
         return self.WRITE
 
     def addWrite(self, bot, update):
@@ -125,10 +159,11 @@ class UI:
         """
         # dont have a clear idea how to store channel title and url.
         #chan = self.Title + self.Url
-        query = update.callback_query
-        cat_id = query.data
-        self.xml.addChannel(cat_id, self.Title, self.Url)
-        bot.sendMessage(chat_id=update.callback_query.message.chat_id,
+        # ~ query = update.callback_query
+        # ~ cat_id = query.data
+        self.Url = update.message.text
+        self.xml.addChannel(int(self.cat_id), self.Title, self.Url, self.path)
+        bot.sendMessage(chat_id=update.message.chat_id,
                         text="channel added Successfully")
     def deleteEntry(self, bot, update):
         """
@@ -171,7 +206,7 @@ class UI:
         """
         bot.sendMessage(chat_id=update.message.chat_id,
                         text="enter the id of channel to delete")
-        query = update.callback_query
+        query = update.callback_queryquery = update.callback_query
         cat_id = query.data
         chan_list = getChannels(cat_id)
         bot.sendMessage(
@@ -185,7 +220,7 @@ class UI:
         Prompts chosen channel, whether to delete or not
         """
         choice = update.message.text
-        selected_chan = XMLops.getChannel(cat_id, choice)
+        selected_chan = XMLops.getChannel(cat_id, choice, self.path)
         custom_keyboard = [['Yes', 'Cancel']]
         reply_markup = ReplyKeyboardMarkup(
             custom_keyboard, one_time_keyboard=True)
