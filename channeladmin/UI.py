@@ -1,6 +1,8 @@
 import logging
 from telegram import ReplyKeyboardMarkup, InlineKeyboardMarkup
 from telegram import InlineKeyboardButton
+import xml.etree.ElementTree as ET
+
 
 
 class UI:
@@ -164,7 +166,10 @@ class UI:
         self.Url = update.message.text
         self.xml.addChannel(int(self.cat_id), self.Title, self.Url, self.path)
         bot.sendMessage(chat_id=update.message.chat_id,
-                        text="channel added Successfully")
+                        text="Entry added Successfully")
+        self.adminButton(bot, update)
+        return self.NEW_ENTRY                
+                      
     def deleteEntry(self, bot, update):
         """
         Conversation: delete
@@ -193,7 +198,7 @@ class UI:
             keyboard.append(list)
         reply_markup = InlineKeyboardMarkup(keyboard)
         update.message.reply_text(
-            "select category to add channel",
+            "select category to Delete",
             parse_mode='Markdown',
             reply_markup=reply_markup)
         
@@ -248,3 +253,5 @@ class UI:
         self.xml.deleteChannel(int(self.cat_id), int(self.choice), self.path)
         bot.sendMessage(chat_id=update.message.chat_id,
                         text="The Channel Deleted Successfully")
+        self.adminButton(bot, update)
+        return self.NEW_ENTRY                  

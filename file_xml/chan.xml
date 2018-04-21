@@ -10,10 +10,10 @@
     </category>
 	
     <category name="Job" id="1">
-        <link title="JobHub for job enquiry">@jobhub</link>
-	    <link title="for Job alerts">@ASA_JobAlerts</link>
-	    <link title="Job Vaccancies">@jobvaccancies</link>
-	    <link title="Teachers vacancy">@staffroom</link>
+        <link title="JobHub for job enquiry" id="0">@jobhub</link>
+	    <link title="for Job alerts" id="1">@ASA_JobAlerts</link>
+	    <link title="Job Vaccancies" id="2">@vaccancies</link>
+	    <link title="Teachers vacancy" id="3">staffroom</link>
 	    <link title="Jobvaccancies">@jobvaccancies</link>
 	    <link title="Jobvaccancies">@jobvaccancies</link>
 	    <link title="Mrjobskerala">@mrjobskerala</link>
@@ -238,8 +238,7 @@
     </category>
 		
     <category name="News" id="13">
-        <link title="NewsHead Malayalam">@newshead</link>
-		<link title="NewsHead InstantView">@newsheadiv</link>
+        <link title="NewsHead InstantView">@newsheadiv</link>
 		<link title="NewsHead English">@newsheadenglish</link>
 		<link title="NewsHead Hindi">@newsheadhindi</link>
 		<link title="NewsHead Video">@newsheadVideo</link>
@@ -412,7 +411,7 @@
     <category name="History" id="30">
 	    <link title="&#3354;&#3376;&#3391;&#3364;&#3405;&#3376;&#3390;&#3368;&#3405;&#3381;&#3399;&#3383;&#3391;&#3349;&#3454;">@malayalamhistory</link>
 	    <link title="&#3333;&#3356;&#3405;&#3358;&#3390;&#3364; &#3378;&#3403;&#3349;&#3330; ">@unknowworld</link>
-    </category>
+    <link title="hist">@historuu</link></category>
 	
     <category name="Health" id="31">
 	    <link title="Info Clinic">@infoclinicindia</link>
@@ -441,9 +440,8 @@
     </category>
 	
     <category name="Religion" id="35">
-	    <link title="The Light of Quran">@thelightofquranAMK</link>
-	    <link title="malankarachurch">@malankarachurch</link>
-    </category>
+	    <link title="The Light of Quran" id="0">@thelightofquranAMK</link>
+	    </category>
 	
     <category name="Craft" id="36">
 		<link title="DIYTube">@DIYTube</link>
@@ -494,4 +492,4 @@
 		<link title="RJ Kerala">@rjkerala</link>
     </category>
 
-<category id="42" name="laptops"><link title="jaba">@jabajaba</link></category><category id="43" name="FresheyyMeen"><link title="testeey">@saraameen</link><link title="meeeeen">@meen</link></category><category id="44" name="Moonjal"/></data>
+<category id="42" name="laptops"><link title="jaba">@jabajaba</link><link title="lap">@laapss</link></category><category id="43" name="FresheyyMeen"><link title="testeey">@saraameen</link><link title="meeeeen">@meen</link></category><category id="44" name="Moonjal"><link title="NewTestStart">@start</link><link title="NewTestStart">Cancel</link><link title="NewTestStart">Cancel</link><link title="NewTestStart">Add Channel</link></category></data>

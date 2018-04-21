@@ -57,8 +57,14 @@ class XMLOps:
         data = xml.getroot()
         channels = []
         for item in data[cat_id]:
-            channels.append([item.attrib.get("title"), item.text])
-        return(channels)
+          text = item.attrib.get("title")
+          text2 = item.text
+          channels.append("👉🏿"+text2+"  "+text)
+        for k in channels:
+          text +="\n"+k    
+        return(text)
+       
+        
 
     def getChannel(self, cat_id, chan_id, path):
         """
