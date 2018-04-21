@@ -442,7 +442,6 @@
 	
     <category name="Religion" id="35">
 	    <link title="The Light of Quran">@thelightofquranAMK</link>
-	    <link title="Rightandtrueislam">@rightandtrueislam</link>
 	    <link title="malankarachurch">@malankarachurch</link>
     </category>
 	
@@ -495,4 +494,4 @@
 		<link title="RJ Kerala">@rjkerala</link>
     </category>
 
-<category id="42" name="laptops"><link title="jaba">@jabajaba</link></category><category id="43" name="FresheyyMeen"><link title="testeey">@saraameen</link></category><category id="44" name="Moonjal"/></data>
+<category id="42" name="laptops"><link title="jaba">@jabajaba</link></category><category id="43" name="FresheyyMeen"><link title="testeey">@saraameen</link><link title="meeeeen">@meen</link></category><category id="44" name="Moonjal"/></data>

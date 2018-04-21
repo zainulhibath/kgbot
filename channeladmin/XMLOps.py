@@ -60,7 +60,7 @@ class XMLOps:
             channels.append([item.attrib.get("title"), item.text])
         return(channels)
 
-    def getChannel(self, cat_id, chan_id):
+    def getChannel(self, cat_id, chan_id, path):
         """
         Get channel info
         :param cat_id: Category ID
@@ -73,7 +73,7 @@ class XMLOps:
         channel_info = [channel.attrib.get("title"), channel.text]
         return(channel_info)
 
-    def deleteChannel(self, cat_id, chan_id):
+    def deleteChannel(self, cat_id, chan_id, path):
         """
         Delete channel
         :param cat_id: Category ID

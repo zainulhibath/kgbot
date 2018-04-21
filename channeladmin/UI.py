@@ -14,7 +14,7 @@ class UI:
             datefmt='%m/%d/%Y %I:%M:%S %p')
         self.xml_path = "path to xml"
         (self.NEW_CATEG, self.SAVE_CATEG, self.SHOW_CATEG, self.TITLE,
-         self.URL, self.WRITE, self.SHWCTG, self.NEW_ENTRY) = range(8)
+         self.URL, self.WRITE, self.SHWCTG, self.NEW_ENTRY, self.LIST_CHAN, self.CHOICE_CHAN, self.CONFIRM_CHAN) = range(11)
         self.Title = ""
         self.Url = ""
         self.Cat = ""
@@ -172,22 +172,31 @@ class UI:
         gets category list from XMLOps.getCategories()
         Prompts category choice
         """
+        deleteid = update.message.text
+        print(deleteid)
+        if deleteid == 'Delete Channel':
+          self.path = 'file_xml/chan.xml'
+        if deleteid == 'Delete Group':
+          self.path = 'file_xml/groups.xml'  
+        if deleteid == 'Delete Bot':
+          self.path = 'file_xml/bot.xml'  
         bot.sendMessage(
             chat_id=update.message.chat_id,
             text="you can delete The Channels here",)
-        categories = self.xml.getCategories()
+        categories = self.xml.getCategories(self.path)
         keyboard = []
         size = 3
         for i in range(0, len(categories), size):
             list = []
             for j in categories[i:i+size]:
-                list.append(j)
+                list.append(InlineKeyboardButton(j[1], callback_data=j[0]))
             keyboard.append(list)
         reply_markup = InlineKeyboardMarkup(keyboard)
         update.message.reply_text(
-            "select category to delete channel",
+            "select category to add channel",
             parse_mode='Markdown',
             reply_markup=reply_markup)
+        
         return self.LIST_CHAN
 
  # TODO: Accept Category ID
@@ -204,13 +213,13 @@ class UI:
         Prompts channel choice
 
         """
-        bot.sendMessage(chat_id=update.message.chat_id,
+        bot.sendMessage(chat_id=update.callback_query.message.chat_id,
                         text="enter the id of channel to delete")
-        query = update.callback_queryquery = update.callback_query
-        cat_id = query.data
-        chan_list = getChannels(cat_id)
+        self.query = update.callback_query
+        self.cat_id = self.query.data
+        chan_list = self.xml.getChannels(int(self.cat_id), self.path)
         bot.sendMessage(
-            chat_id=update.message.chat_id,
+            chat_id=update.callback_query.message.chat_id,
             text=chan_list)
         return self.CHOICE_CHAN
 
@@ -219,8 +228,8 @@ class UI:
         Conversation:  delete
         Prompts chosen channel, whether to delete or not
         """
-        choice = update.message.text
-        selected_chan = XMLops.getChannel(cat_id, choice, self.path)
+        self.choice = update.message.text
+        selected_chan = self.xml.getChannel(int(self.cat_id), int(self.choice), self.path)
         custom_keyboard = [['Yes', 'Cancel']]
         reply_markup = ReplyKeyboardMarkup(
             custom_keyboard, one_time_keyboard=True)
@@ -236,6 +245,6 @@ class UI:
         Accepts the confirmation to delete
         deletes the channel with XMLOps.deleteChannel(channel_id)
         """
-        deleteChannel(cat_id, choice)
-        bot.SendMessage(chat_id=update.message.chat_id,
+        self.xml.deleteChannel(int(self.cat_id), int(self.choice), self.path)
+        bot.sendMessage(chat_id=update.message.chat_id,
                         text="The Channel Deleted Successfully")
