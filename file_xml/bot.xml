@@ -27,22 +27,6 @@
 		<link title="vkmusic_bot">@vkmusic_bot</link>
 		<link title="Videoeditbot">@Videoeditbot</link>
     </category>
-    <category name="Images" id="2">
-		<link title="icon8bot">@icon8bot</link>
-		<link title="effectbot">@effectbot</link>
-		<link title="guggybot">@guggybot</link>
-		<link title="thedodgebot">@thedodgebot</link>
-		<link title="clippy">@clippy</link>
-		<link title="ImageTranslateBot">@ImageTranslateBot</link>      
-		<link title="qrcrbot">@qrcrbot</link>
-		<link title="EditMeBot">@EditMeBot</link>
-		<link title="bing">@bing&gt;</link>
-		<link title="pic">@pic</link>
-		<link title="allwallpaperbot">@allwallpaperbot</link>
-		<link title="imgmagicbot">@imgmagicbot</link>
-		<link title="NatGeoBot">@NatGeoBot</link>
-		<link title="ImageSearchBot">@ImageSearchBot</link>
-    </category>
     <category name="Memes and Trolls" id="3">
               <link title="createMemes">@createMeme_bot</link>
               <link title="memingbot">@memingbot</link>
@@ -113,26 +97,6 @@
         <link title="topdf_bot">@topdf_bot</link>
         <link title="TextTSBot">@TextTSBot</link>
 		<link title="fileconverterbot">@fileconverterbot</link>
-    </category>
-    <category name="Games" id="10">
-        <link title="Awesome bot">@awesomebot</link>
-        <link title="Games Hd Bot">@GamesHDBot</link>
-        <link title="lucei Bot">@ludeiBot</link>
-        <link title="Micro games">@microgamesbot</link>
-        <link title="Brugame">@brugamebot</link>
-        <link title="Lona game">@lonagamebot</link>
-        <link title="LH Games">@LHGamesBot</link>
-        <link title="Lazy games">@lazygamesbot</link>
-        <link title="Fox games">@foxgamebot</link>
-        <link title="DontDie">@DontDieBot</link>
-        <link title="ChessBot">@ChessBot</link>
-        <link title="gamebot">@gamebot</link>
-        <link title="ClassicSnakeBot">@ClassicSnakeBot</link>
-        <link title="country_bot">@country_bot</link>
-        <link title="dicebot">@dicebot</link>
-        <link title="Fruitgamebot">@Fruitgamebot</link>
-        <link title="gamee Games">@gamee</link>
-        <link title="earthquizbot">@earthquizbot</link>
     </category>
     <category name="Create Bots" id="11">
 		<link title="BaieBOT">@BaieBOT</link>

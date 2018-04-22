@@ -2,6 +2,9 @@ import logging
 from telegram import ReplyKeyboardMarkup, InlineKeyboardMarkup
 from telegram import InlineKeyboardButton
 import xml.etree.ElementTree as ET
+import settings
+from listitems import Listing
+
 
 
 
@@ -16,13 +19,31 @@ class UI:
             datefmt='%m/%d/%Y %I:%M:%S %p')
         self.xml_path = "path to xml"
         (self.NEW_CATEG, self.SAVE_CATEG, self.SHOW_CATEG, self.TITLE,
-         self.URL, self.WRITE, self.SHWCTG, self.NEW_ENTRY, self.LIST_CHAN, self.CHOICE_CHAN, self.CONFIRM_CHAN) = range(11)
+         self.URL, self.WRITE, self.SHWCTG, self.NEW_ENTRY, self.LIST_CHAN, self.CHOICE_CHAN, self.CONFIRM_CHAN, self.ADMIN_REJECT, self.LIST_CTG, self.CONFIRM_CATEG) = range(14)
         self.Title = ""
         self.Url = ""
         self.Cat = ""
         self.xml = xml
         self.path = ""
 
+    def adminCheck(self, bot, update):
+        chat_id = update.message.chat_id
+        is_admin = chat_id in settings.ADMINS
+        if is_admin:
+          self.adminButton(bot, update)
+          return self.NEW_ENTRY
+        else:
+          custom_keyboard = [
+          ['Cancel']]
+          reply_markup = ReplyKeyboardMarkup(
+                  custom_keyboard, one_time_keyboard=True)	
+          bot.sendMessage(
+                  chat_id=update.message.chat_id,
+                  text="Only Admin Can Do this Operation press Cancel and /start again",
+                   parse_mode='Markdown',
+                   reply_markup=reply_markup)
+          return self.ADMIN_REJECT
+          
     def adminButton(self, bot, update):
         custom_keyboard = [
           ['Add Channel'],
@@ -31,6 +52,9 @@ class UI:
           ['Delete Group'],
           ['Add Bot'],
           ['Delete Bot'],
+          # ~ ['Delete Chan Category'],
+          # ~ ['Delete Grp Category'],
+          # ~ ['Delete Bot Category'],
           ['Cancel']]
         reply_markup = ReplyKeyboardMarkup(
                   custom_keyboard, one_time_keyboard=True)
@@ -254,4 +278,69 @@ class UI:
         bot.sendMessage(chat_id=update.message.chat_id,
                         text="The Channel Deleted Successfully")
         self.adminButton(bot, update)
-        return self.NEW_ENTRY                  
+        return self.NEW_ENTRY
+        
+    def deleteCategoryentry(self, bot, update):
+        """
+        Conversation: delete
+        Entry point for entry delete conversation
+        gets category list from XMLOps.getCategories()
+        Prompts category choice
+        """
+        deleteid = update.message.text
+        print(deleteid)
+        if deleteid == 'Delete Chan Category':
+          self.path = 'file_xml/chan.xml'
+        if deleteid == 'Delete Grp Category':
+          self.path = 'file_xml/groups.xml'  
+        if deleteid == 'Delete Bot Category':
+          self.path = 'file_xml/bot.xml'  
+        bot.sendMessage(
+            chat_id=update.message.chat_id,
+            text="you can delete The Channels here",)
+        categories = self.xml.getCategories(self.path)
+        keyboard = []
+        size = 3
+        for i in range(0, len(categories), size):
+            list = []
+            for j in categories[i:i+size]:
+                list.append(InlineKeyboardButton(j[1], callback_data=j[0]))
+            keyboard.append(list)
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        update.message.reply_text(
+            "select category to Delete",
+            parse_mode='Markdown',
+            reply_markup=reply_markup)
+        
+        return self.LIST_CTG
+        
+    def deleteCategory(self, bot, update):
+        """
+        Conversation:  delete
+        Prompts chosen channel, whether to delete or not
+        """
+        self.query = update.callback_query
+        self.cat_id = self.query.data
+        selected_categ = self.xml.getCategory(int(self.cat_id), self.path)
+        custom_keyboard = [['Yes', 'Cancel']]
+        reply_markup = ReplyKeyboardMarkup(
+            custom_keyboard, one_time_keyboard=True)
+        bot.sendMessage(
+            chat_id=update.callback_query.message.chat_id,
+            text="are you sure to delete %s Category" % selected_categ,
+            reply_markup=reply_markup)
+        return self.CONFIRM_CATEG
+        
+    def deleteConfirmcateg(self, bot, update):
+        """
+        Conversation: delete
+        Accepts the confirmation to delete
+        deletes the channel with XMLOps.deleteChannel(channel_id)
+        """
+        self.xml.deleteCategory(int(self.cat_id), self.path)
+        bot.sendMessage(chat_id=update.message.chat_id,
+                        text="The Category Deleted Successfully")
+        self.adminButton(bot, update)
+        return self.NEW_ENTRY        
+        
+                              

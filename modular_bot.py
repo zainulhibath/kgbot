@@ -61,19 +61,24 @@ def main():
         level=logging.INFO)
     dispatcher.add_error_handler(error_callback)
     channelAdmin_handler = ConversationHandler(
-        entry_points=[CommandHandler('channelAdmin', Channel.adminButton)],
+        entry_points=[CommandHandler('channelAdmin', Channel.adminCheck)],
         states={
+		    Channel.ADMIN_REJECT : [RegexHandler(('Cancel'), cancel)],
 		    Channel.NEW_ENTRY : [RegexHandler('(Add Channel)', Channel.addEntry),
                      RegexHandler('(Delete Channel)', Channel.deleteEntry),
                      RegexHandler('(Add Group)', Channel.addEntry),
                      RegexHandler('(Delete Group)', Channel.deleteEntry),
                      RegexHandler('(Cancel)', cancel),
                      RegexHandler('(Add Bot)', Channel.addEntry),
-                     RegexHandler('(Delete Bot)', Channel.deleteEntry)],
+                     RegexHandler('(Delete Bot Category)', Channel.deleteCategoryentry),
+                     RegexHandler('(Delete Grp Category)', Channel.deleteCategoryentry),
+                     RegexHandler('(Delete Chan Category)', Channel.deleteCategoryentry)],
             Channel.NEW_CATEG: [RegexHandler('(Yes)', Channel.addNewCategory),
                                 RegexHandler('No, add to existing category|Show Categories',
                                              Channel.showCategory)],
             Channel.CONFIRM_CHAN: [RegexHandler('(Yes)', Channel.deleteConfirm),
+                                RegexHandler('(Cancel)', cancel)],
+            Channel.CONFIRM_CATEG: [RegexHandler('(Yes)', Channel.deleteConfirmcateg),
                                 RegexHandler('(Cancel)', cancel)],
             Channel.SAVE_CATEG: [MessageHandler(Filters.text,
                                                 Channel.addSaveCategory),
@@ -84,6 +89,8 @@ def main():
                            CallbackQueryHandler(Channel.deleteChannel)],
             Channel.TITLE: [MessageHandler(Filters.text, Channel.addTitle),
                            CallbackQueryHandler(Channel.addTitle)],
+            Channel.LIST_CTG: [CallbackQueryHandler(Channel.deleteCategory)],
+                           
             # Channel.SHOW_CATEG: [
             Channel.URL: [MessageHandler(Filters.text, Channel.addUrl)],
             Channel.SHWCTG  : [MessageHandler(Filters.text, Channel.showCategory)],

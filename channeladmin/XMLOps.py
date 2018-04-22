@@ -60,10 +60,17 @@ class XMLOps:
           text = item.attrib.get("title")
           text2 = item.text
           channels.append("👉🏿"+text2+"  "+text)
-        for k in channels:
-          text +="\n"+k    
-        return(text)
        
+        for k in channels:
+          text +="\n"+k
+        return(text)
+
+       
+
+# ~ for index, s in enumerate(stocks_list):
+    # ~ print index, s
+
+
         
 
     def getChannel(self, cat_id, chan_id, path):
@@ -90,3 +97,27 @@ class XMLOps:
         del(data[cat_id][chan_id])
         file = et.ElementTree(data)
         file.write(path, pretty_print=True)
+        
+    def deleteCategory(self, cat_id, path):
+        """
+        Delete channel
+        :param cat_id: Category ID
+        """
+        xml = et.parse(path)
+        data = xml.getroot()
+        del(data[cat_id])
+        file = et.ElementTree(data)
+        file.write(path, pretty_print=True)
+        
+    def getCategory(self, cat_id, path):
+        """
+        Get category list from the xml
+        :return categories: a list of list containing  id and name of categories
+        """
+        print (path)
+        xml = et.parse(path)
+        data = xml.getroot()
+        categ = data[cat_id]
+        categ_info = [categ.attrib.get("name")]
+        return(categ_info)
+                   
