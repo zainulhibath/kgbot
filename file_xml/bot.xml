@@ -98,27 +98,6 @@
         <link title="TextTSBot">@TextTSBot</link>
 		<link title="fileconverterbot">@fileconverterbot</link>
     </category>
-    <category name="Create Bots" id="11">
-		<link title="BaieBOT">@BaieBOT</link>
-		<link title="bigbotfactorybot">@bigbotfactorybot</link>
-		<link title="Bot Father">@Botfather</link>
-		<link title="chatfuelbot">@chatfuelbot</link>
-		<link title="Manybot">@Manybot</link>
-		<link title="MetaBot">@MetaBot</link>
-		<link title="TbotifyBot">@TbotifyBot</link>
-    </category>
-    <category name="Weather" id="12">
-        <link title="aemetbot">@aemetbot</link>              
-        <link title="Eltiempobot">@Eltiempobot</link>
-        <link title="the_weather_bot">@the_weather_bot</link>
-        <link title="weatherbot">@weatherbot</link>
-        <link title="weathercast_bot">@weathercast_bot</link>
-        <link title="Weatherman">@Weatherman_bot</link>
-    </category>
-    <category name="Online shopping" id="13">
-		<link title="Amazondirectbot">@amazondirectbot</link>
-		<link title="flipkartsearchbot">@flipkartsearchbot</link>
-	<link title="flipkart">@flipkartbottts</link></category>
     <category name="Others" id="14">
         <link title="wiki">@wiki</link>
         <link title="siftbot">@siftbot</link>

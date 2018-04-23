@@ -57,6 +57,7 @@ class XMLOps:
         data = xml.getroot()
         channels = []
         i=0
+        tex=""
         for item in data[cat_id]:
           text = item.attrib.get("title")
           text2 = item.text
@@ -64,8 +65,8 @@ class XMLOps:
           i+=1
        
         for k in channels:
-          text +="\n"+k
-        return(text)
+          tex +="\n"+k
+        return(tex)
 
        
 
@@ -120,6 +121,6 @@ class XMLOps:
         xml = et.parse(path)
         data = xml.getroot()
         categ = data[cat_id]
-        categ_info = [categ.attrib.get("name")]
+        categ_info = [categ.attrib.get("name"), categ.attrib.get("id")]
         return(categ_info)
                    

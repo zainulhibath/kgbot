@@ -412,13 +412,6 @@
 	    <link title="&#3333;&#3356;&#3405;&#3358;&#3390;&#3364; &#3378;&#3403;&#3349;&#3330; ">@unknowworld</link>
     <link title="hist">@historuu</link></category>
 	
-    <category name="Health" id="31">
-	    <link title="Info Clinic">@infoclinicindia</link>
-	    <link title="&#3334;&#3376;&#3403;&#3351;&#3405;&#3375;&#3330;">@aarogyam</link>
-	    <link title="&#3381;&#3400;&#3366;&#3405;&#3375;&#3382;&#3390;&#3378; ">@Vaidyashala</link>
-	    <link title="Sahachara Ayurveda">@sahacharaayurveda</link>
-    </category>
-	
     <category name="All in One" id="32">
 	    <link title="Quality Stuff">@QualiStuff</link>
 	    <link title="MEDIA SHARE">@iMediaShare</link>
@@ -462,31 +455,4 @@
     <category name="Tutorials" id="40">
 		<link title="bsfbfsvb">@FDGDGDGDG</link></category>
 	
-    <category name="Others" id="41">
-	    <link title="Fb entertainment">@fbenter10</link>
-	    <link title="Tg Malayalam">@tgMalayalam</link>
-	    <link title="&#3349;&#3399;&#3376;&#3379; &#3382;&#3390;&#3384;&#3405;&#3364;&#3405;&#3376;&#3384;&#3390;&#3385;&#3391;&#3364;&#3405;&#3375;&#3370;&#3376;&#3391;&#3383;&#3364;&#3405;&#3364;&#3405; &#3354;&#3390;&#3368;&#3378;&#3405;&#8205;">@gskssp</link>
-	    <link title="Telegram blogger">@Tgblogger</link>
-		<link title="BSNL Kerala">@bsnl_kerala</link>
-	    <link title="BSNL Updates">@bsnlupdates</link>
-	    <link title="Askme Now">@AskmeNow</link>
-        <link title="Bio Vision">@bio_vision</link>
-		<link title="Entrepreneurs Kerala">@entrepreneurs_kerala</link>
-		<link title="Log&#161;&#162;">@logic_works</link>
-		<link title="Krishi Padam">@krishipadam</link>
-		<link title="Malayalam Status">@malayalamstatus</link>
-		<link title="sharechat">@scvirals</link>
-        <link title="POLLS KERALA">@pollskerala</link>
-        <link title="Bit Coin">@bitaltnews</link>
-        <link title="TGVIRALS">@TGVIRALS</link>
-        <link title="Cptdennis">@Cptdennis</link>
-        <link title="phalithangal">@phalithangal</link>
-        <link title="Sahayahastham ">@sahayahastham</link>
-        <link title="Fitmallu">@fitmallu</link>
-        <link title="Tally2u">@Tally2u</link>
-        <link title="Dancersworld">@dancersworld</link>
-        <link title="learnto_draw">@learnto_draw</link>
-		<link title="RJ Kerala">@rjkerala</link>
-    <link title="ff">@ffff</link></category>
-
-<category id="42" name="laptops"><link title="jaba">@jabajaba</link><link title="lap">@laapss</link></category></data>
+    <category id="42" name="laptops"><link title="jaba">@jabajaba</link><link title="lap">@laapss</link></category></data>

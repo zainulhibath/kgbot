@@ -52,9 +52,9 @@ class UI:
           ['Delete Group'],
           ['Add Bot'],
           ['Delete Bot'],
-          # ~ ['Delete Chan Category'],
-          # ~ ['Delete Grp Category'],
-          # ~ ['Delete Bot Category'],
+          ['Delete Chan Category'],
+          ['Delete Grp Category'],
+          ['Delete Bot Category'],
           ['Cancel']]
         reply_markup = ReplyKeyboardMarkup(
                   custom_keyboard, one_time_keyboard=True)
@@ -301,10 +301,13 @@ class UI:
         categories = self.xml.getCategories(self.path)
         keyboard = []
         size = 3
+        k=0
         for i in range(0, len(categories), size):
             list = []
             for j in categories[i:i+size]:
-                list.append(InlineKeyboardButton(j[1], callback_data=j[0]))
+                print(j)
+                list.append(InlineKeyboardButton(j[1], callback_data=k))
+                k+=1
             keyboard.append(list)
         reply_markup = InlineKeyboardMarkup(keyboard)
         update.message.reply_text(
@@ -321,6 +324,7 @@ class UI:
         """
         self.query = update.callback_query
         self.cat_id = self.query.data
+        print (self.cat_id)
         selected_categ = self.xml.getCategory(int(self.cat_id), self.path)
         custom_keyboard = [['Yes', 'Cancel']]
         reply_markup = ReplyKeyboardMarkup(
