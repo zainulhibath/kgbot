@@ -56,10 +56,12 @@ class XMLOps:
         xml = et.parse(path)
         data = xml.getroot()
         channels = []
+        i=0
         for item in data[cat_id]:
           text = item.attrib.get("title")
           text2 = item.text
-          channels.append("👉🏿"+text2+"  "+text)
+          channels.append(str(i)+" "+"👉🏿"+text2+"  "+text)
+          i+=1
        
         for k in channels:
           text +="\n"+k
