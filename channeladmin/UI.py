@@ -52,9 +52,9 @@ class UI:
           ['Delete Group'],
           ['Add Bot'],
           ['Delete Bot'],
-          ['Delete Chan Category'],
-          ['Delete Grp Category'],
-          ['Delete Bot Category'],
+          # ~ ['Delete Chan Category'],
+          # ~ ['Delete Grp Category'],
+          # ~ ['Delete Bot Category'],
           ['Cancel']]
         reply_markup = ReplyKeyboardMarkup(
                   custom_keyboard, one_time_keyboard=True)
