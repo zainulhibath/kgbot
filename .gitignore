@@ -1,5 +1,7 @@
 # sticker_image folder
 sticker_img/
+#xml_folder
+file_xml/
 # # Database File
 stickers.db
 # Byte-compiled / optimized / DLL files

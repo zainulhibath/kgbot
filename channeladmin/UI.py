@@ -233,8 +233,14 @@ class UI:
         # ~ query = update.callback_query
         # ~ cat_id = query.data
         self.Url = update.message.text
-        self.xml.addChannel(int(self.cat_id), self.Title, self.Url, self.path)
-        bot.sendMessage(chat_id=update.message.chat_id,
+        usernamelist = self.xml.searchItems(self.path)
+        if self.Url in usernamelist:
+          bot.sendMessage(
+            chat_id=update.message.chat_id,
+            text="This username is already exist here")
+        else:    
+          self.xml.addChannel(int(self.cat_id), self.Title, self.Url, self.path)
+          bot.sendMessage(chat_id=update.message.chat_id,
                         text="Entry added Successfully")
         self.adminButton(bot, update)
         return self.NEW_ENTRY                
