@@ -47,12 +47,9 @@ class UI:
     def adminButton(self, bot, update):
         custom_keyboard = [
           ['Search Items'],
-          ['Add Channel'],
-          ['Delete Channel'],
-          ['Add Group'],
-          ['Delete Group'],
-          ['Add Bot'],
-          ['Delete Bot'],
+          ['Add Channel', 'Delete Channel'],
+          ['Add Group', 'Delete Group'],
+          ['Add Bot', 'Delete Bot'],
           # ~ ['Delete Chan Category'],
           # ~ ['Delete Grp Category'],
           # ~ ['Delete Bot Category'],
