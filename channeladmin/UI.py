@@ -134,11 +134,11 @@ class UI:
         if searchkw in usernamelist:
           bot.sendMessage(
             chat_id=update.message.chat_id,
-            text="this username is already exist ✅")
+            text="This username is already exist ✅")
         else:
           bot.sendMessage(
             chat_id=update.message.chat_id,
-            text="this username is not yet added here ❌")				
+            text="This username is not yet added here ❌")				
         self.searchButton(bot, update)
         return self.SEARCH   	 		             
 
