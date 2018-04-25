@@ -388,11 +388,11 @@
 	
 	<category name="Love, Frndshp" id="25">
 		<link title="Feathers of love">@FeathersOfLove</link>
-		<link ttle="മഴയുടെ ചുംബനങ്ങൾ">@kiss_of_rain</link>
-		<link ttle="The_idealist">@the_idealist</link>
-		<link ttle="Shareloves">@shareloves</link>
-		<link ttle="Feelmylove">@feelmylove</link>
-		<link ttle="LoveBytes">@LoveBytes</link>
+		<link title="മഴയുടെ ചുംബനങ്ങൾ">@kiss_of_rain</link>
+		<link title="The_idealist">@the_idealist</link>
+		<link title="Shareloves">@shareloves</link>
+		<link title="Feelmylove">@feelmylove</link>
+		<link title="LoveBytes">@LoveBytes</link>
 	</category>
 	
     <category name="Personal pages" id="26">

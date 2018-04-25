@@ -123,4 +123,14 @@ class XMLOps:
         categ = data[cat_id]
         categ_info = [categ.attrib.get("name"), categ.attrib.get("id")]
         return(categ_info)
+        
+    def searchItems(self, path):
+        xml = et.parse(path)
+        data = xml.getroot()
+        usernames = []
+        for item in data:
+          for j in item:
+            text = j.text
+            usernames.append(text.lower())
+        return(usernames)        
                    

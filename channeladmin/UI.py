@@ -19,7 +19,7 @@ class UI:
             datefmt='%m/%d/%Y %I:%M:%S %p')
         self.xml_path = "path to xml"
         (self.NEW_CATEG, self.SAVE_CATEG, self.SHOW_CATEG, self.TITLE,
-         self.URL, self.WRITE, self.SHWCTG, self.NEW_ENTRY, self.LIST_CHAN, self.CHOICE_CHAN, self.CONFIRM_CHAN, self.ADMIN_REJECT, self.LIST_CTG, self.CONFIRM_CATEG) = range(14)
+         self.URL, self.WRITE, self.SHWCTG, self.NEW_ENTRY, self.LIST_CHAN, self.CHOICE_CHAN, self.CONFIRM_CHAN, self.ADMIN_REJECT, self.LIST_CTG, self.CONFIRM_CATEG, self.SEARCH, self.FIND) = range(16)
         self.Title = ""
         self.Url = ""
         self.Cat = ""
@@ -46,6 +46,7 @@ class UI:
           
     def adminButton(self, bot, update):
         custom_keyboard = [
+          ['Search Items'],
           ['Add Channel'],
           ['Delete Channel'],
           ['Add Group'],
@@ -96,6 +97,50 @@ class UI:
         # TODO: call XMLOps.addCategory(cat_name) to add new category
         # TODO: call XMLOps.addChannel(cat_id, chan) to add new channel
         return self.NEW_CATEG
+    
+    def searchButton(self, bot, update):
+        
+        custom_keyboard = [['Channel', 'Group', 'Bot'],['GoBack']]
+        reply_markup = ReplyKeyboardMarkup(
+            custom_keyboard, one_time_keyboard=True)
+        bot.sendMessage(
+            chat_id=update.message.chat_id,
+            text="Select The Category To Search",
+            reply_markup=reply_markup)
+
+        return self.SEARCH
+    
+    def searchEntry(self, bot, update):
+                
+        entryid = update.message.text
+        print(entryid)
+        if entryid == 'Channel':
+          self.path = 'file_xml/chan.xml'
+        if entryid == 'Group':
+          self.path = 'file_xml/groups.xml'  
+        if entryid == 'Bot':
+          self.path = 'file_xml/bot.xml'  
+          print(self.path)
+        
+        bot.sendMessage(
+            chat_id=update.message.chat_id,
+            text="Enter The url starting with @ in small letters")
+
+        return self.FIND
+        
+    def findEntry(self, bot, update):
+        searchkw = update.message.text
+        usernamelist = self.xml.searchItems(self.path)
+        if searchkw in usernamelist:
+          bot.sendMessage(
+            chat_id=update.message.chat_id,
+            text="this username is already exist ✅")
+        else:
+          bot.sendMessage(
+            chat_id=update.message.chat_id,
+            text="this username is not yet added here ❌")				
+        self.searchButton(bot, update)
+        return self.SEARCH   	 		             
 
     def addNewCategory(self, bot, update):
         """
