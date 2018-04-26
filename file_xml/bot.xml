@@ -26,8 +26,8 @@
 		<link title="getmp3bot">@getmp3bot</link>
 		<link title="vkmusic_bot">@vkmusic_bot</link>
 		<link title="Videoeditbot">@Videoeditbot</link>
-    </category>
-    <category name="Memes and Trolls" id="3">
+    <link title="Utube bot">@utubebot</link></category>
+    <category name="Memes and Trolls" id="2">
               <link title="createMemes">@createMeme_bot</link>
               <link title="memingbot">@memingbot</link>
     	      <link title="malayalam_meme_maker">@malayalam_meme_maker_bot</link>
@@ -35,7 +35,7 @@
               <link title="automemebot">@automemebot</link>
               <link title="CivilService">https://t.me/CivilService</link>
     </category>
-    <category name="Gifs" id="4">
+    <category name="Gifs" id="3">
         <link title="tube2gif_bot">@tube2gif_bot</link>
         <link title="gifcreator_bot">@gifcreator_bot</link>
         <link title="GifMaster_bot">@GifMaster_bot</link>
@@ -44,7 +44,7 @@
         <link title="">@gif</link>
         <link title="">@coub</link>
     </category>
-    <category name="Stickers" id="5">
+    <category name="Stickers" id="4">
         <link title="stckrbot">@stckrbot</link>
 		<link title="sticker">@sticker</link>
 		<link title="StickerpipeBot">@StickerpipeBot</link>
@@ -52,7 +52,7 @@
         <link title="Stickerdownloadbot">@Stickerdownloadbot</link>
 		<link title="Make your stickers">@HowToMakeStickersBot</link>
     </category>
-    <category name="Movies and Series" id="6">
+    <category name="Movies and Series" id="5">
         <link title="IndianMoviesBot">@IndianMoviesBot</link>
         <link title="imdb">@imdb</link>
         <link title="MovieS4bot">@MovieS4bot</link>
@@ -64,7 +64,7 @@
         <link title="watchcomicbot">@watchcomicbot</link>
         <link title="ShowtimesBot">@ShowtimesBot</link>
     </category>
-    <category name="Languages" id="7">
+    <category name="Languages" id="6">
         <link title="vanmarambot">@vanmarambot</link>
         <link title="MalayalamDictionBot">@MalayalamDictionBot</link>
 		<link title="DictionBot">@DictionBot</link>
@@ -78,7 +78,7 @@
 		<link title="insttranslatebot">@insttranslatebot</link>
 		<link title="udbot">@udbot</link>
     </category>
-    <category name="News" id="8">
+    <category name="News" id="7">
         <link title="TimesNow">@timesnowbot</link>
         <link title="Manorama News">@manoramanewsbot</link>
         <link title="">@MathrubhumiBot</link>
@@ -92,13 +92,13 @@
 		<link title="allgoals_bot">@allgoals_bot</link>
 		<link title="moneycontrolbot">@moneycontrolbot</link>
     </category>
-    <category name="Converters" id="9">
+    <category name="Converters" id="8">
         <link title="vgifbot">@vgifbot</link>
         <link title="topdf_bot">@topdf_bot</link>
         <link title="TextTSBot">@TextTSBot</link>
 		<link title="fileconverterbot">@fileconverterbot</link>
     </category>
-    <category name="Others" id="14">
+    <category name="Others" id="9">
         <link title="wiki">@wiki</link>
         <link title="siftbot">@siftbot</link>
         <link title="gbreborn_bot">@gbreborn_bot</link>
@@ -116,5 +116,5 @@
         <link title="controllerbot">@controllerbot</link>
         <link title="calculator">@calcubot</link>
         <link title="aanavandibot">@aanavandibot</link>
-    </category>
+    <link title="New File Converter Bot">@NewFileConverterBot</link></category>
 </data>
