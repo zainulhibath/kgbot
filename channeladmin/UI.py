@@ -19,7 +19,7 @@ class UI:
             datefmt='%m/%d/%Y %I:%M:%S %p')
         self.xml_path = "path to xml"
         (self.NEW_CATEG, self.SAVE_CATEG, self.SHOW_CATEG, self.TITLE,
-         self.URL, self.WRITE, self.SHWCTG, self.NEW_ENTRY, self.LIST_CHAN, self.CHOICE_CHAN, self.CONFIRM_CHAN, self.ADMIN_REJECT, self.LIST_CTG, self.CONFIRM_CATEG, self.SEARCH, self.FIND) = range(16)
+         self.URL, self.WRITE, self.SHWCTG, self.NEW_ENTRY, self.LIST_CHAN, self.CHOICE_CHAN, self.CONFIRM_CHAN, self.ADMIN_REJECT, self.LIST_CTG, self.CONFIRM_CATEG, self.SEARCH, self.FIND, self.CATEG_DEL_CNFRM) = range(17)
         self.Title = ""
         self.Url = ""
         self.Cat = ""
@@ -139,6 +139,19 @@ class UI:
         self.searchButton(bot, update)
         return self.SEARCH   	 		             
 
+    def addNewCategConfirm(self, bot, update):
+        custom_keyboard = [
+          ['Yes, Add To New Categ', 'GoBack']]
+        reply_markup = ReplyKeyboardMarkup(
+                  custom_keyboard, one_time_keyboard=True)	
+        bot.sendMessage(
+                  chat_id=update.message.chat_id,
+                  text="Are You Sure ?",
+                   parse_mode='Markdown',
+                   reply_markup=reply_markup)
+        return self.CATEG_DEL_CNFRM         
+					
+    
     def addNewCategory(self, bot, update):
         """
         Conversation: Add
