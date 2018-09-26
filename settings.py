@@ -6,5 +6,6 @@ ADMINS = [
     197549508,  # @ablets
     243330990,  # @mujeebcpy
     288203947,  # @muhammedunais
-    293751493  # @asifak
+    293751493,  # @asifak
+    273918350 #aswinmguptha
 ]
